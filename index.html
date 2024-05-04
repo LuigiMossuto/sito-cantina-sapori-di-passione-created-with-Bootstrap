@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow"/> 
+    <title>Home</title>
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/all.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&display=swap" rel="stylesheet">
+</head>
+<body class="bg-black" onload="create()">
+    <nav id="navbar"></nav>
+    <div class="container-xl">
+        <div class="container-fluid py-3 d-flex container-home">
+            <div class="row">
+                <div class="col-3 ps-0 titolo-home-padding" data-mdb-animation="fade-in-left"><p class="text-white titolo fw-bold w-100 m-0">Benvenuti nella Casa dei Sapori: Esplora il Mondo di Passione della Nostra Cantina</p></div>
+                <div class="col-6 d-flex"><img class="foto-home" src="img/foto_home.png" data-mdb-animation="fade-in-down"></div>
+                <div class="col-3 d-flex align-items-end pe-0 sottotitolo-home"><p class="text-white-50 fw-normal w-100 sottotitolo my-0">Vivi l'arte dell'enologia con noi, dove ogni sorso è un viaggio nel cuore della passione vinicola.</p></div>
+            </div>
+        </div>
+        <div class="container-fluid mt-4 mt-sm-5 mt-md-7 mt-lg-9 mt-xl-11">
+            <p class="text-center text-warning fw-bold m-0 titolo">I NOSTRI VINI</p>
+        </div>
+        <div class="row mt-3 mt-sm-4 mt-xl-6 d-none-card-telefono mb-md-3">
+            <div class="col-12 col-sm-6 col-lg-3 card-col-sm mb-sm-5 ps-md-0 ps-lg-3 h-100 mb-lg-0">
+                <div class="card bg-dark stile-card">
+                    <img src="img/bottiglia_vino_montepulciano-rosso.png" class="card-img-top mt-1">
+                    <div class="card-body text-center">
+                      <p class="card-title text-primary titolo-card">Abruzzo, Italia</p>
+                      <p class="card-text text-white testo-card">Vitigno Montepulciano: Montepulciano rosso d’Abruzzo, 2018</p>
+                      <a href="montepulciano_rosso.html" class="button-vino"><i class="fa-solid fa-arrow-right-long fa-lg"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3 mb-sm-5 pe-md-0 card-col-sm pe-lg-3 h-100 mb-lg-0">
+                <div class="card bg-dark stile-card">
+                    <img src="img/bottiglia_vino_cococciola-bianco.png" class="card-img-top mt-1">
+                    <div class="card-body text-center">
+                      <p class="card-title text-primary titolo-card">Abruzzo, Italia</p>
+                      <p class="card-text text-white testo-card vino-cococciola">Vitigno Trebbiano: Cococciola bianco d’Abruzzo, 2020</p>
+                      <a href="cococciola_bianco.html" class="button-vino"><i class="fa-solid fa-arrow-right-long fa-lg"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3 card-col-sm ps-md-0 ps-lg-3 h-100">
+                <div class="card bg-dark stile-card">
+                    <img src="img/bottiglia_spumante_rose-brut.png" class="card-img-top mt-1">
+                    <div class="card-body text-center">
+                      <p class="card-title text-primary titolo-card">Abruzzo, Italia</p>
+                      <p class="card-text text-white testo-card vino-cerasuolo cococciola-spumante">Cococciola spumante brut d’Abruzzo, 2023 (annata attaule)</p>
+                      <a href="rose_spumante_brut.html" class="button-vino"><i class="fa-solid fa-arrow-right-long fa-lg"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3 card-col-sm pe-md-0 pe-lg-3 h-100">
+                <div class="card bg-dark stile-card">
+                    <img src="img/bottiglia_bio_montepulciano_rosso.jpg" class="card-img-top mt-1">
+                    <div class="card-body text-center">
+                      <p class="card-title text-primary titolo-card">Abruzzo, Italia</p>
+                      <p class="card-text text-white testo-card">BIO Montepulciano: Montepulciano rosso d’Abruzzo, 2021</p>
+                      <a href="bio_montepulciano-rosso.html" class="button-vino"><i class="fa-solid fa-arrow-right-long fa-lg"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row mb-md-2 d-sm-none">
+        <div class="col-12">
+            <div id="carouselExampleIndicators" class="carousel slide carousel-fade d-sm-none mt-3 width-slider-telefono bg-dark px-3 slider-card-telefono pt-4">
+                <div class="carousel-inner">
+                  <a class="text-decoration-none" href="montepulciano_rosso.html">
+                      <div class="carousel-item active slider-card-telefono bg-dark">
+                        <img src="img/bottiglia_vino_montepulciano-rosso.png" class="d-block">
+                        <div class="card-body text-center">
+                            <p class="card-title text-primary titolo-card">Abruzzo, Italia</p>
+                            <p class="card-text text-white testo-card">Vitigno Montepulciano: Montepulciano rosso d’Abruzzo, 2018</p>
+                        </div>
+                      </div>
+                  </a>
+                  <a class="text-decoration-none" href="cococciola_bianco.html">
+                      <div class="carousel-item slider-card-telefono bg-dark">
+                        <img src="img/bottiglia_vino_cococciola-bianco.png" class="d-block">
+                        <div class="card-body text-center">
+                            <p class="card-title text-primary titolo-card">Abruzzo, Italia</p>
+                            <p class="card-text text-white testo-card">Vitigno Trebbiano: Cococciola bianco d’Abruzzo, 2020</p>
+                        </div>
+                      </div>
+                  </a>
+                  <a class="text-decoration-none" href="rose_spumante_brut.html">
+                      <div class="carousel-item slider-card-telefono bg-dark">
+                        <img src="img/bottiglia_spumante_rose-brut.png" class="d-block">
+                        <div class="card-body text-center">
+                            <p class="card-title text-primary titolo-card">Abruzzo, Italia</p>
+                            <p class="card-text text-white testo-card">Cococciola spumante brut d’Abruzzo, 2023 (annata attaule)</p>
+                        </div>
+                      </div>
+                  </a>
+                  <a class="text-decoration-none" href="bio_montepulciano-rosso.html">
+                      <div class="carousel-item slider-card-telefono bg-dark">
+                        <img src="img/bottiglia_bio_montepulciano_rosso.jpg" class="d-block">
+                        <div class="card-body text-center">
+                            <p class="card-title text-primary titolo-card">Abruzzo, Italia</p>
+                            <p class="card-text text-white testo-card">BIO Montepulciano: Montepulciano rosso d’Abruzzo, 2021</p>
+                        </div>
+                      </div>
+                  </a>
+                </div>
+                <div class="carousel-indicators position-static pt-3 pb-5-padding-slider">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row mt-sm-3">
+        <div class="col-12 d-flex">
+            <a class="bottone-l text-decoration-none" href="vini.html">I nostri vini<div class="quadrato"><i class="fa-solid fa-arrow-right-long fa-lg"></i></div></a>
+        </div>
+    </div>
+    <div class="row mt-4 mt-sm-5 mt-xl-11 mt-lg-9 mt-md-7">
+        <div class="col-12">
+            <p class="text-center text-warning fw-bold m-0 titolo">PERCORSO DI DEGUSTAZIONE</p>
+        </div>
+    </div>
+    <div class="row mt-xl-7 mt-lg-5 mt-md-2rem mt-sm-4 mt-3">
+        <div class="col-6 col-sm-4 pe-xl-0"><div class="cerchio-degustazione bg-dark vino-degustazione"><a href="degustazione.html"></a></div>
+            <p class="card-text text-white testo-card text-center mt-2 mt-sm-3">Vini: Introduzione.</p>
+        </div>
+        <div class="col-6 col-sm-4 px-xl-0"><div class="cerchio-degustazione bg-dark cibo-vino-degustazione"><a href="degustazione.html"></a></div>
+            <p class="card-text text-white testo-card text-center mt-2 mt-sm-3">Cibo-Vino</p>
+        </div>
+        <div class="col-12 col-sm-4 ps-xl-0 mt-2 mt-sm-0"><div class="cerchio-degustazione bg-dark vitigni-degustazione"><a href="degustazione.html"></a></div>
+            <p class="card-text text-white testo-card text-center mt-2 mt-sm-3">Viaggio Vitigni.</p>
+        </div>
+    </div>
+    <div class="row mt-2 mt-sm-3">
+        <div class="col-12 d-flex">
+            <a class="bottone-l text-decoration-none" href="degustazione.html#prenota">Prenota<div class="quadrato"><i class="fa-solid fa-arrow-right-long fa-lg"></i></div></a>
+        </div>
+    </div>
+    <div class="row mt-4 mt-sm-5 mt-xl-11 mt-lg-9 mt-md-7 d-none d-sm-block">
+        <div class="col-12">
+            <p class="text-center text-warning fw-bold m-0 titolo">LA STORIA DELLA NOSTRA CANTINA</p>
+        </div>
+    </div>
+    <div class="row mt-2 d-none d-sm-block">
+        <div class="col-12">
+            <p class="text-center text-warning fw-bold m-0 sottotitolo">AUTENTICA CANTINA ABBRUZZESE</p>
+        </div>
+    </div>
+    <div class="row mt-xl-7 mt-lg-5 mt-md-2rem mt-sm-4 mt-3 d-none d-sm-block">
+        <div class="col-12 d-none d-sm-block d-lg-none cantina">
+            <img src="img/foto_cantina_home_sm.jpg">
+        </div>
+        <div class="col-12 d-none d-lg-block d-xl-none cantina">
+            <img src="img/foto_cantina_home_lg.jpg">
+        </div>
+        <div class="col-12 d-none d-xl-block cantina">
+            <img src="img/foto_cantina_home.jpg">
+        </div>
+    </div>
+    <div class="row mt-xl-7 mt-lg-5 mt-md-2rem mt-sm-4 mt-3 d-none d-sm-block">
+        <div class="col-12">
+            <div class="w-75 testo-cantina spaziatura-caratteri">
+                <p class="testo-card text-white"><span class="fw-bold">Sapori di Passione</span> nasce nel 1987 ,si trova sulle colline di <span class="fw-bold">Ortona</span>(CH), in zona Villa Caldari.
+                    Essa ha origini nelle <span class="fw-bold">tradizioni familiari</span> con la piantagione delle prime viti da parte del patriarca. Nel corso degli anni,
+                    la cantina ha ottenuto riconoscimenti per la <span class="fw-bold">qualità</span> dei suoi vini, mantenendo viva la passione enologica attraverso le generazioni.</p>
+                <p class="testo-card text-white">La vendemmia diventa una festa che unisce <span class="fw-bold">famiglia e amici</span>, mentre la cantina accoglie appassionati del vino da tutto il mondo. Oggi, 
+                    <span class="fw-bold">Sapori di Passione</span> continua a coniugare tradizione e innovazione, producendo vini che raccontano <span class="fw-bold">l'essenza</span> della terra con un occhio rivolto al futuro.</p>
+            </div>
+        </div>
+    </div>
+    <div class="row mt-4 mt-sm-5 mt-xl-11 mt-lg-9 mt-md-7">
+        <div class="col-12">
+            <p class="text-center text-warning fw-bold m-0 titolo">VITIGNI</p>
+        </div>
+    </div>
+    <div class="row mt-xl-7 mt-lg-5 mt-md-2rem mt-sm-4 mt-3">
+        <div class="col-12 vitigni">
+            <div class="trebbiano"><p class="text-center titolo text-white fw-bold">TREBBIANO</p></div>
+            <div class="montepulciano"><p class="text-center titolo text-white fw-bold">MONTEPULCIANO</p></div>
+        </div>
+    </div>
+    <div class="row mt-3">
+        <div class="col-12 d-flex">
+            <a class="bottone-l text-decoration-none" href="vitigni.html" >I nostri vitigni<div class="cuore"><i class="fa-solid fa-arrow-right-long fa-lg"></i></div></a>
+        </div> 
+    </div>
+    <div class="row mt-2 mt-sm-2rem mt-xl-11 mt-lg-9 mt-md-7">
+        <div class="col-12 newsletter">
+            <div class="row d-sm-none d-flex flex-column">
+                <div class="col-12 text-center text-warning titolo mt-2rem">NEWSLETTER</div>
+                <div class="col-7 my-0 mx-auto"><p class="testo-card text-white testo-newsletter">Iscriviti alla nostra newsletter per essere aggiornato sui nostri eventi esclusivi</p></div>
+                <div class="col-7 my-0 mx-auto">
+                    <form>
+                        <input type="text" class="form-control email-newsletter" id="email-newsletter" placeholder="Email">
+                        <button type="button" class="btn-newsletter shadow">ISCRIVITI</button>
+                    </form>
+                </div>
+            </div>
+            <div class="row d-none d-sm-block">
+                <div class="col-8 bg-white riquadro-newsletter">
+                    <div class="col-12 text-center text-warning titolo mt-2rem">NEWSLETTER</div>
+                    <div class="col-8 my-0 mx-auto"><p class="testo-card text-black testo-newsletter">Iscriviti alla nostra newsletter per essere aggiornato sui nostri eventi esclusivi</p></div>
+                    <div class="col-8 my-0 mx-auto padding-bottom-form">
+                        <form>
+                            <input type="text" class="form-control email-newsletter" id="email_newsletter" placeholder="Email" name="email-newsletter" onblur="controlloEmailNewsletter()">
+                            <div class="msg" id="msg-email-newsletter"></div>
+                            <button type="button" class="btn-newsletter shadow hover-overlay" id="btn_newsletter" onclick="checkEmail()">ISCRIVITI</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="anni" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content bg-dark">
+            <div class="modal-body d-flex flex-column align-items-center">
+            <p class="titolo text-center text-warning margin-titolo-modal"> Dichiari di essere maggiorenne?</p>
+            <p class="sottotitolo text-center text-white mx-auto mt-3">Per accedere al sito devi avere almeno 18 anni.</p>
+            <div class="container-btn-modal d-flex">
+                <button type="button" class="btn btn-no-18 bg-white"><a class="text-decoration-none text-black" href="https://www.google.com/webhp?hl=it&sa=X&ved=0ahUKEwil0fmQgZSDAxUDRvEDHSWbB-IQPAgJ">Non ho 18 anni</a></button>
+                <button type="button" class="btn btn-primary btn-18" onclick="closeModal(), setCookie('maggiorenne', 'true')">Ho 18 anni</button>
+            </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <!--modal-newsletter-->
+    <div class="modal fade" id="exampleModal" tabindex="-1">
+        <div class="modal-dialog">
+        <div class="modal-content bg-dark">
+            <div class="modal-header">
+            <h1 class="modal-title titolo-modal text-warning text-center" id="exampleModalLabel">Grazie per esserti iscritto alla nostra newsletter!</h1>
+            <button type="button" class="btn-close bg-light" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body testo-modal text-white">
+            Vi terremo aggiornati.
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <footer id="footer"></footer>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/funzioni.js"></script>
+</body>
+</html>

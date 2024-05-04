@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow"/>
+    <title>Home</title>
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/all.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&display=swap" rel="stylesheet">
+</head>
+<body class="bg-black" onload="create()">
+    <nav id="navbar"></nav>
+    <div class="container-xl container-contatti">
+        <div class="row mt-4 mt-sm-5 mt-xl-11 mt-lg-9 mt-md-7">
+            <div class="col-12">
+                <p class="text-center text-warning fw-bold m-0 titolo">CONTATTI</p>
+            </div>
+        </div>
+        <div class="row mt-4 mt-sm-5 mt-xl-11 mt-lg-9 mt-md-7">
+            <div class="col-12">    
+                <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m8!1m3!1d755665.3392075873!2d13.63724495390626!3d42.282414002859795!3m2!1i1024!2i768!4f13.1!4m6!3e0!4m0!4m3!3m2!1d42.3497068!2d14.1494391!5e0!3m2!1sit!2sit!4v1703068239833!5m2!1sit!2sit" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="mappa"></iframe>
+            </div>
+        </div>
+        <form>
+            <div class="row mt-xl-7 mt-lg-5 mt-md-2rem mt-sm-4 mt-3">
+                <div class="col-12 col-lg-6 mb-6 mb-sm-6 mb-lg-7">
+                    <div class="input-container">
+                        <input placeholder="Nome*" class="input-field" type="text" id="nome" name="nome" onblur="controlloNome()">
+                        <label for="nome" class="input-label">Nome*</label>
+                        <span class="input-highlight"></span>
+                        <div class="msg" id="msg-nome"></div>
+                    </div>                  
+                </div>
+                <div class="col-12 col-lg-6 mb-6 mb-sm-6 mb-lg-7">
+                    <div class="input-container">
+                        <input placeholder="Cognome*" class="input-field" type="text" id="cognome" name="cognome" onblur="controlloCognome()">
+                        <label for="cognome" class="input-label">Cognome*</label>
+                        <span class="input-highlight"></span>
+                        <div class="msg" id="msg-cognome"></div>
+                    </div> 
+                </div>
+                <div class="col-12 col-lg-6 mb-6 mb-sm-6 mb-lg-7">
+                    <div class="input-container">
+                        <input placeholder="Email*" class="input-field" type="text" id="email" name="email" onblur="controlloEmail()">
+                        <label for="email" class="input-label">Email*</label>
+                        <span class="input-highlight"></span>
+                        <div class="msg" id="msg-email"></div>
+                    </div> 
+                </div>
+                <div class="col-12 col-lg-6 mb-6 mb-sm-6 mb-lg-7">
+                    <div class="input-container">
+                        <input placeholder="Telefono*" class="input-field" type="text" id="telefono" name="telefono" onblur="controlloTelefono()">
+                        <label for="telefono" class="input-label">Telefono*</label>
+                        <span class="input-highlight"></span>
+                        <div class="msg" id="msg-telefono"></div>
+                    </div> 
+                </div>
+                <div class="col-12 mb-2rem mb-sm-2rem mb-lg-6">
+                    <div class="form-check p-0 d-flex flex-wrap" id="trattamento">
+                        <input class="form-check-input ms-auto" type="checkbox" id="accettare" value="accettare">
+                        <label class="form-check-label text-white me-auto" for="accettare">
+                            Accetto il trattamento dei miei dati
+                        </label>
+                        <div class="msg w-100 text-center" id="msg-trattamento"></div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <button type="button" id="btn_form" class="btn btn-primary" onclick="controlloForm()">INVIA</button>
+                </div>
+            </div>
+        </form>
+        <div class="row mt-4 mt-sm-5 mt-xl-11 mt-lg-9 mt-md-7">
+            <div class="col-12">
+                <div class="container-annata posizione d-flex flex-lg-column">
+                    <img src="icone/posizione.svg" class="my-lg-0 mx-lg-auto"></img>
+                    <div class="annata my-lg-0 mx-lg-auto">
+                        <p class="text-warning titolo m-0 px-3 py-2 fw-bold text-lg-center">Posizione</p>
+                        <p class="text-white testo-card text-lg-center mt-lg-3">Chieti, 66100 CH</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 mt-4 mt-xxl-5">
+                <div class="container-annata telefono d-flex flex-lg-column">
+                    <img src="icone/telefono.svg" class="my-lg-0 mx-lg-auto"></img>
+                    <div class="annata my-lg-0 mx-lg-auto">
+                        <p class="text-warning titolo m-0 px-3 py-2 fw-bold">Il nostro numero</p>
+                        <p class="text-white testo-card mt-lg-3 text-lg-center">877-255-7945</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 mt-4 mt-xxl-5">
+                <div class="container-annata email d-flex flex-lg-column">
+                    <img src="icone/email.svg" class="my-lg-0 mx-lg-auto"></img>
+                    <div class="annata my-lg-0 mx-lg-auto">
+                        <p class="text-warning titolo m-0 px-3 py-2 fw-bold">La nostra email</p>
+                        <p class="text-white testo-card text-lg-center mt-lg-3">info@form.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </div>
+
+
+    <!--modal-->
+    <div class="modal fade" id="exampleModal" tabindex="-1">
+        <div class="modal-dialog">
+        <div class="modal-content bg-dark">
+            <div class="modal-header">
+            <h1 class="modal-title titolo-modal text-warning text-center" id="exampleModalLabel">Grazie per averci contattato</h1>
+            <button type="button" class="btn-close bg-light" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body testo-modal text-white">
+            Presto le daremo risposta
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <footer id="footer"></footer>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/funzioni.js"></script>
+</body>
+</html>    

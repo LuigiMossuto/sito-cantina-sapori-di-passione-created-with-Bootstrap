@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow"/>
+    <title>Document</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/all.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&display=swap" rel="stylesheet">
+</head>
+<body class="bg-black" onload="create()">
+    <nav id="navbar"></nav>
+    <div class="container-xl container-vini">
+        <div class="row py-3">
+            <div class="col-12 d-flex">
+                <button class="button-vini"> VINI</button>
+                <a class="c-button c-button--gooey text-decoration-none" href="bio.html">
+                    <p class="bio-text">BIO</p>
+                    <div class="c-button__blobs">
+                      <div></div>
+                      <div></div>
+                      <div></div>
+                    </div>
+                  </a>
+                  
+                  <svg xmlns="http://www.w3.org/2000/svg" version="1.1" style="display: block; height: 0; width: 0;">
+                    <defs>
+                      <filter id="goo">
+                        <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"></feGaussianBlur>
+                        <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo"></feColorMatrix>
+                        <feBlend in="SourceGraphic" in2="goo"></feBlend>
+                      </filter>
+                    </defs>
+                  </svg>              
+            </div>
+        </div>
+        <div class="row mt-3 mt-sm-4 mt-xl-6 mb-md-3">
+          <div class="col-12 col-sm-6 col-lg-3 card-col-sm mb-5 mb-sm-5 ps-md-0 ps-lg-3 h-100 mb-lg-0">
+              <div class="card bg-dark stile-card stile-card-vini">
+                  <img src="img/bottiglia_vino_montepulciano-rosso.png" class="card-img-top mt-1">
+                  <div class="card-body text-center">
+                    <p class="card-title text-primary titolo-card">Abruzzo, Italia</p>
+                    <p class="card-text text-white testo-card">Vitigno Montepulciano: Montepulciano rosso d’Abruzzo, 2018</p>
+                    <a href="montepulciano_rosso.html" class="button-vino"><i class="fa-solid fa-arrow-right-long fa-lg"></i></a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3 mb-5 mb-sm-5 pe-md-0 card-col-sm pe-lg-3 h-100 mb-lg-0">
+              <div class="card bg-dark stile-card stile-card-vini">
+                  <img src="img/bottiglia_vino_cococciola-bianco.png" class="card-img-top mt-1">
+                  <div class="card-body text-center">
+                    <p class="card-title text-primary titolo-card">Abruzzo, Italia</p>
+                    <p class="card-text text-white testo-card vino-cococciola">Vitigno Trebbiano: Cococciola bianco d’Abruzzo, 2020</p>
+                    <a href="cococciola_bianco.html" class="button-vino"><i class="fa-solid fa-arrow-right-long fa-lg"></i></a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3 mb-5 mb-sm-5 card-col-sm ps-md-0 ps-lg-3 h-100">
+              <div class="card bg-dark stile-card stile-card-vini">
+                  <img src="img/bottiglia_montapulciano_cerasuolo-rosato.png" class="card-img-top mt-1">
+                  <div class="card-body text-center">
+                    <p class="card-title text-primary titolo-card">Abruzzo, Italia</p>
+                    <p class="card-text text-white testo-card vino-cerasuolo">Vitigno Montepulciano: Cerasuolo rosato d’Abruzzo, 2022</p>
+                    <a href="cerasuolo_rosato.html" class="button-vino"><i class="fa-solid fa-arrow-right-long fa-lg"></i></a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3 mb-5 mb-sm-5 card-col-sm pe-md-0 pe-lg-3 h-100">
+              <div class="card bg-dark stile-card stile-card-vini">
+                  <img src="img/bottiglia_chardonnay_bianco.png" class="card-img-top mt-1">
+                  <div class="card-body text-center">
+                    <p class="card-title text-primary titolo-card">Abruzzo, Italia</p>
+                    <p class="card-text text-white testo-card chardonnay">Vitigno Trebbiano: Chardonnay bianco d’Abruzzo, 2023</p>
+                    <a href="chardonnay_bianco.html" class="button-vino"><i class="fa-solid fa-arrow-right-long fa-lg"></i></a>
+                  </div>
+              </div>
+          </div>
+        </div>
+        <div class="row mt-3 mt-sm-4 mt-xl-6 mb-md-3">
+          <div class="col-12 col-sm-6 col-lg-3 card-col-sm mb-5 mb-sm-5 ps-md-0 ps-lg-3 h-100 mb-lg-0">
+              <div class="card bg-dark stile-card stile-card-vini">
+                  <img src="img/bottiglia_pecorino_bianco.png" class="card-img-top mt-1">
+                  <div class="card-body text-center">
+                    <p class="card-title text-primary titolo-card">Abruzzo, Italia</p>
+                    <p class="card-text text-white testo-card pecorino">Vitigno Trebbiano: Pecorino bianco d’Abruzzo, 2021 DOC</p>
+                    <a href="pecorino_bianco.html" class="button-vino"><i class="fa-solid fa-arrow-right-long fa-lg"></i></a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3 mb-5 mb-sm-5 pe-md-0 card-col-sm pe-lg-3 h-100 mb-lg-0">
+              <div class="card bg-dark stile-card stile-card-vini">
+                  <img src="img/bottiglia_spumante_cococciola-brut.png" class="card-img-top mt-1">
+                  <div class="card-body text-center">
+                    <p class="card-title text-primary titolo-card">Abruzzo, Italia</p>
+                    <p class="card-text text-white testo-card vino-cococciola">Cococciola spumante brut d’Abruzzo, 2023 (annata attaule)</p>
+                    <a href="spumante_cococciola_brut.html" class="button-vino"><i class="fa-solid fa-arrow-right-long fa-lg"></i></a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3 mb-5 mb-sm-5 card-col-sm ps-md-0 ps-lg-3 h-100">
+              <div class="card bg-dark stile-card stile-card-vini">
+                  <img src="img/bottiglia_spumante_rose-brut.png" class="card-img-top mt-1">
+                  <div class="card-body text-center">
+                    <p class="card-title text-primary titolo-card">Abruzzo, Italia</p>
+                    <p class="card-text text-white testo-card spumante-rose-brut">Rosè spumante brut d’Abruzzo, 2023 (annata attaule)</p>
+                    <a href="rose_spumante_brut.html" class="button-vino"><i class="fa-solid fa-arrow-right-long fa-lg"></i></a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3 mb-5 mb-sm-5 card-col-sm pe-md-0 pe-lg-3 h-100">
+              <div class="card bg-dark stile-card stile-card-vini">
+                  <img src="img/bottiglia_spumante-moscato_moscato-dolce.png" class="card-img-top mt-1">
+                  <div class="card-body text-center">
+                    <p class="card-title text-primary titolo-card">Abruzzo, Italia</p>
+                    <p class="card-text text-white testo-card moscato-dolce">Moscato dolce spumante d’Abruzzo, 2023 (annata attuale)</p>
+                    <a href="moscato_dolce_spumante.html" class="button-vino"><i class="fa-solid fa-arrow-right-long fa-lg"></i></a>
+                  </div>
+              </div>
+          </div>
+        </div>
+  </div>
+    
+
+
+
+    <footer id="footer"></footer>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/funzioni.js"></script>
+</body>
+</html>

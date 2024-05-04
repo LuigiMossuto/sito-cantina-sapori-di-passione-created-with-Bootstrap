@@ -1,0 +1,3326 @@
+html {
+    scroll-behavior:smooth;
+}
+body {
+    font-family: 'Hedvig Letters Serif', serif;
+}
+.container-home .sottotitolo {
+    font-size: 8px;
+    
+}
+.container-home .titolo {
+    font-size: 10px;
+}
+.titolo {
+    font-size: 10px;
+}
+.sottotitolo {
+    font-size: 8px;
+}
+.foto-home {
+    width: 90%!important;
+    margin: 0 auto;
+}
+.container-home .row {
+    margin-top: 5.5rem;
+}
+#ul-dropdown{
+  position: absolute;
+  top: 0;
+  left: 65px;
+}
+.container-vini .row {
+    margin-top: 5.5rem;
+}
+.container-foto-prodotto {
+    margin-top: 5.5rem;
+}
+.container-foto-prodotto div {
+    background-image: url("../img/foto_background_prodotto.png");
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: center;
+}
+.container-foto-prodotto img {
+    width: 50%;
+    margin: 0 auto;
+}
+.titolo-footer {
+    margin: 1rem auto 0;
+}
+.ul-footer {
+    margin: 0 auto 0.3rem!important;
+}
+.tasto-back {
+    position: absolute;
+    top: 30px;
+    left: 13px;
+}
+.container-annata img {
+    width: 15px;
+    margin-right: 10px;
+    margin-top: -12px;
+}
+.container-annata .annata .titolo {
+    padding: 0!important;
+}
+.container-annata .annata .testo-card {
+    margin-bottom: 0;
+}
+.denominazione img {
+    margin-top: -6px;
+}
+.gradazione img {
+    width: 17px;
+    margin-right: 8px;
+}
+.vinificazione img {
+    width: 17px;
+    margin-right: 8px;
+}
+.spaziatura-caratteri {
+    line-height: 20px!important;
+}
+.colore-titolo-cerasuolo {
+    color: #fe9f9f;
+}
+.colore-titolo-bio {
+    color: #77BB6C;
+}
+.bg-transparent-l {
+    background-color: transparent!important;
+    box-shadow: none!important;
+}
+.container-degustazione .col-12 {
+    background-image: url("../img/foto_degustazione.jpg");
+    background-repeat: no-repeat;
+    background-size: 130%;
+    background-position: center;
+}
+.container-vitigni .col-12 {
+    background-image: url("../img/foto_vitigni.jpg");
+    background-repeat: no-repeat;
+    background-size: 130%;
+    background-position: center;
+}
+.bottone-recensioni {
+    margin: 0 auto;
+    margin-top: -0.5rem;
+    padding: 5px 22px!important;
+    border-radius: 0px 15px !important;
+    height: 27px!important;
+    color: #fff!important;
+}
+.testo-titolo-degustazione{
+    font-size: 20px;
+    margin-bottom: 0;
+}
+.degustazione-contenuto img {
+    width: 100%;
+    border-radius: 37px;
+}
+.degustazione-contenuto-cucina img {
+    width: 100%;
+    border-radius: 37px;
+}
+.vitigni-contenuto img {
+    width: 75%;
+    margin: 0 auto;
+}
+.testo-titolo-contenuto-degustazione {
+    font-size: 0.7rem!important;
+}
+.bottone-prenota {
+    margin: 0 auto 0 0;
+    padding: 3px 15px !important;
+    border-radius: 0px 10px !important;
+    height: 22px !important;
+    color: #fff !important;
+}
+.bottone-vitigni {
+    margin: 0 auto 0 0;
+    padding: 3px 15px !important;
+    border-radius: 0px 10px !important;
+    height: 22px !important;
+    color: #fff !important;
+    background-color: transparent!important;
+}
+/* Input container */
+.input-container {
+    position: relative;
+    margin: 20px;
+    margin-top: 0;
+    height: 46px;
+}
+
+/* Input field */
+.input-field {
+display: block;
+width: 100%;
+padding: 10px;
+font-size: 16px;
+border: none;
+border-bottom: 2px solid #fff;
+outline: none;
+background-color: transparent;
+color: #fff;
+}
+/* Input label */
+.input-label {
+position: absolute;
+top: 0;
+left: 0;
+font-size: 16px;
+color: rgba(204, 204, 204, 0);
+pointer-events: none;
+transition: all 0.3s ease;
+}
+/* Input highlight */
+.input-highlight {
+position: absolute;
+bottom: 0;
+left: 0;
+height: 2px;
+width: 0;
+background-color: #FFD838;
+transition: all 0.3s ease;
+}
+/* Input field:focus styles */
+.input-field:focus + .input-label {
+top: -20px;
+font-size: 16px;
+color: #FFD838;
+}
+.input-field:focus + .input-label + .input-highlight {
+width: 100%;
+}  
+.msg {
+    height: 30px;
+}
+.msg p {
+    padding-top: 2px;
+}
+.errore {
+    color: #f00;
+}
+.background-select {
+    background-color: #fff0!important;
+}
+.padding-select {
+    padding: 0 31px;
+}
+.container-messaggio textarea {
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 15px;
+}
+.container-messaggio textarea:focus {
+    background-color: transparent;
+}
+.container-messaggio textarea::placeholder {
+    color: #8a8a8a;
+}
+#btn_form {
+    width: 100%;
+    border-radius: 0 20px;
+}
+.mb-7 {
+    margin-bottom: 4rem;
+}
+.mb-2rem {
+    margin-bottom: 2rem;
+}
+.titolo-modal {
+    font-size: 1rem;
+    font-weight: bold;
+}
+.testo-modal {
+    font-size: 0.7rem!important;
+}
+.foto_vitigni_information {
+    border-radius: 40px;
+    background-image: url("../img/foto_vitigni_i-nostri-vini.jpg");
+    background-size: 150%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.foto_vitigni_information.foto2 {
+    background-image: url("../img/foto_vitigni_visitaci.jpg");
+    background-size: 130%;
+}
+.foto_vitigni_information.foto3 {
+    background-image: url("../img/foto_vitigni_contattaci.jpg");
+    background-size: 130%;
+}
+.container-contatti {
+    margin-top: 5.5rem;
+}
+.mappa {
+    width: 100%;
+    height: 280px;
+    border-radius: 30px;
+}
+.colore-copyright {
+    color: #8a8a8a!important;
+}
+.container-annata.email img {
+    margin-top: -4px;
+}
+.container-annata.telefono img {
+    width: 10px;
+    margin-right: 13px;
+    margin-top: -4px;
+    margin-left: 2px;
+}
+.container-annata.posizione img {
+    width: 11px;
+    margin-top: -4px;
+    margin-left: 1.5px;
+    margin-right: 12px;
+}
+@media (min-width: 576px) {
+    .mb-sm-2rem {
+        margin-bottom: 2rem;
+    }
+    .mb-sm-6 {
+        margin-bottom: 3.5rem;
+    }
+    .mb-sm-7 {
+        margin-bottom: 4rem;
+    }
+    .mb-sm-8 {
+        margin-bottom: 4.5rem;
+    }
+    .mb-sm-9 {
+        margin-bottom: 5rem;
+    }
+    .container-home .sottotitolo {
+        font-size: 13px;
+        
+    }
+    .container-home .titolo {
+        font-size: 15px;
+    }
+    .titolo {
+        font-size: 15px;
+    }
+    .sottotitolo {
+        font-size: 13px
+    }
+    .container-foto-prodotto {
+        margin-top: 6rem;
+    }
+    .tasto-back {
+        position: absolute;
+        top: 8px;
+        left: 13px;
+    }
+    .container-annata img {
+        width: 22px;
+        margin-right: 10px;
+        margin-top: -12px;
+    }
+    .denominazione img {
+        margin-top: -2px;
+    }
+    .gradazione img {
+        width: 24px;
+        margin-right: 8px;
+    }
+    .vinificazione img {
+        width: 24px;
+        margin-right: 8px;
+    }
+    .spaziatura-caratteri {
+        line-height: 30px!important;
+    }
+    .bottone-recensioni {
+        margin: 0 auto;
+        padding: 5px 45px!important;
+        border-radius: 0px 15px !important;
+        height: 36px!important;
+    }
+    .testo-titolo-degustazione{
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+    .degustazione-contenuto img {
+        width: 100%;
+        border-radius: 55px;
+    }
+    .degustazione-contenuto-cucina img {
+        width: 100%;
+        border-radius: 55px;
+    }
+    .testo-titolo-contenuto-degustazione {
+        font-size: 1rem!important;
+        line-height: 30px;
+    }
+    .line-height-degustazione {
+        line-height: 30px;
+    }
+    .bottone-prenota {
+        margin: 0 auto;
+        padding: 3px 23px !important;
+        border-radius: 0px 14px !important;
+        height: 31px !important;
+        color: #fff !important;
+    }
+    .bottone-vitigni {
+        padding: 3px 23px !important;
+        border-radius: 0px 14px !important;
+        height: 31px !important;
+        color: #fff !important;
+        background-color: transparent!important;
+    }
+    .titolo-modal {
+        font-size: 1.2rem;
+    }
+    .testo-modal {
+        font-size: 1rem!important;
+    }
+    .container-contatti {
+        margin-top: 6rem;
+    }
+    .mappa {
+        width: 100%;
+        height: 380px;
+        border-radius: 30px;
+    }
+    .container-annata.email img {
+        margin-top: 1px;
+    }
+    .container-annata.telefono img {
+        width: 15px;
+        margin-right: 15px;
+        margin-top: 1px;
+        margin-left: 2.5px;
+    }
+    .container-annata.posizione img {
+        width: 15px;
+        margin-top: -2px;
+        margin-left: 2.5px;
+        margin-right: 14px;
+    }
+}
+@media (min-width: 768px) {
+    .ms-md-2rem {
+        margin-left: 2rem;
+    }
+    .me-md-2rem {
+        margin-right: 2rem;
+    }
+    .container-home .sottotitolo {
+        font-size: 16px;
+        
+    }
+    .container-home .titolo {
+        font-size: 18px;
+    }
+    .titolo {
+        font-size: 18px;
+    }
+    .sottotitolo {
+        font-size: 16px
+    }
+    .container-home .row {
+        margin-top: 8rem;
+    }
+    .container-vini .row {
+        margin-top: 8rem;
+    }
+    .container-foto-prodotto {
+        margin-top: 8rem;
+    }
+    .tasto-back {
+        position: absolute;
+        top: 21px;
+        left: 13px;
+    }
+    .container-annata img {
+        width: 26px;
+        margin-right: 15px;
+        margin-top: -13px;
+    }
+    .denominazione img {
+        margin-top: -1px;
+        margin-left: 15px;
+    }
+    .gradazione img {
+        width: 29px;
+        margin-left: 12px;
+    }
+    .vinificazione img {
+        width: 29px;
+        margin-right: 12px;
+    }
+    .bottone-recensioni {
+        margin: 0 auto;
+        padding: 5px 45px!important;
+        border-radius: 0px 15px !important;
+        height: 37px!important;
+    }
+    .testo-titolo-degustazione{
+        font-size: 40px;
+        margin-bottom: 0;
+    }
+    .degustazione-contenuto img {
+        width: 100%;
+        border-radius: 70px;
+    }
+    .degustazione-contenuto img {
+        width: 100%;
+        border-radius: 70px;
+    }
+    .testo-titolo-contenuto-degustazione {
+        font-size: 1.15rem!important;
+        line-height: 35px;
+    }
+    .line-height-degustazione {
+        line-height: 35px;
+    }
+    .bottone-prenota {
+        margin: 0 auto;
+        padding: 4px 35px !important;
+        border-radius: 0px 15px !important;
+        height: 35px !important;
+    }
+    .bottone-vitigni {
+        padding: 4px 35px !important;
+        border-radius: 0px 15px !important;
+        height: 35px !important;
+    }
+    .titolo-modal {
+        font-size: 1.3rem!important;
+    }
+    .testo-modal {
+        font-size: 1.15rem!important;
+    }
+    .vitigni-contenuto img {
+        width: 100%;
+        margin: 3rem auto;
+    }
+    .container-contatti {
+        margin-top: 9rem;
+    }
+    .mappa {
+        width: 100%;
+        height: 400px;
+        border-radius: 30px;
+    }
+    .container-annata.email img {
+        margin-top: 2px;
+    }
+    .container-annata.telefono img {
+        width: 20px;
+        margin-right: 19px;
+        margin-top: 0.5px;
+        margin-left: 2px;
+    }
+    .container-annata.posizione img {
+        width: 20px;
+        margin-top: 2px;
+        margin-left: 2px;
+        margin-right: 19px;
+    }
+}
+@media (min-width: 992px) {
+    .mt-lg-2rem {
+        margin-top: 2rem;
+    }
+    .mb-lg-7 {
+        margin-bottom: 4rem;
+    }
+    .mb-lg-8 {
+        margin-bottom: 4.5rem;
+    }
+    .mb-lg-9 {
+        margin-bottom: 5rem;
+    }
+    .mb-lg-10 {
+        margin-bottom: 5.5rem;
+    }
+    .mb-lg-11 {
+        margin-bottom: 6rem;
+    }
+    .container-home .sottotitolo {
+        font-size: 18px;
+        
+    }
+    .container-home .titolo {
+        font-size: 22px;
+    }
+    .titolo {
+        font-size: 22px;
+    }
+    .sottotitolo {
+        font-size: 16px
+    }
+    .container-home .row {
+        margin-top: 7rem;
+    }
+    .container-vini .row {
+        margin-top: 7rem;
+    }
+    #ul-dropdown {
+        position: absolute;
+        top: 40px;
+        left: -47px;
+    }
+    .container-annata img {
+        width: 30px;
+        margin-right: 20px;
+        margin-top: -13px;
+    }
+    .denominazione img {
+        margin-top: -1px;
+    }
+    .gradazione img {
+        width: 33px;
+        margin-left: 12px;
+    }
+    .vinificazione img {
+        width: 33px;
+        margin-right: 17px;
+    }
+    .bottone-recensioni:hover {
+        color: #000!important;
+    }
+    .testo-titolo-degustazione{
+        font-size: 40px;
+        margin-bottom: 0;
+    }
+    .degustazione-contenuto img {
+        width: 100%;
+        border-radius: 85px;
+        height: 430px;
+        margin-top: 7.5rem;
+    }
+    .degustazione-contenuto-cucina img {
+        width: 100%;
+        border-radius: 85px;
+        height: 430px;
+        margin-top: 7.5rem;
+    }
+    .testo-titolo-contenuto-degustazione {
+        font-size: 1.25rem!important;
+        line-height: 40px;
+    }
+    .line-height-degustazione {
+        line-height: 40px;
+    }
+    .bottone-prenota:hover {
+        color: #000!important;
+    }
+    .bottone-vitigni {
+        color: #000!important;
+        background-color: #fff!important;
+    }
+    .bottone-vitigni:hover {
+        color: #fff!important;
+        background-color: #000!important;
+    }
+    .bottone-vitigni .c-button__blobs div:nth-child(1) {
+        background-color: #000;
+    }
+    .bottone-vitigni .c-button__blobs div:nth-child(2) {
+        background-color: #000;
+    }
+    .bottone-vitigni .c-button__blobs div:nth-child(3) {
+        background-color: #000;
+    }
+    .padding-select {
+        padding: 0 31px;
+    }
+    .titolo-modal {
+        font-size: 1.5rem!important;
+    }
+    .testo-modal {
+        font-size: 1.25rem!important;
+    }
+    .foto_vitigni_information {
+        border-radius: 50px 0 0 50px;
+    }
+    .foto_vitigni_information.foto2 {
+        background-size: 145.5%;
+        border-radius: 0;
+        background-position-x: 18%;
+    }
+    .foto_vitigni_information.foto3 {
+        background-size: 150%;
+        border-radius: 0 50px 50px 0;
+    }
+    .margin-titolo-bottone-vitigni {
+        margin: 9rem 0!important;
+    }
+    .container-contatti {
+        margin-top: 8rem;
+    }
+    .mappa {
+        width: 100%;
+        height: 500px;
+        border-radius: 30px;
+    }
+    .container-annata.telefono img {
+        width: 25px;
+        margin-right: 22px;
+        margin-top: 0.5px;
+        margin-left: 2px;
+    }
+    .container-annata.posizione img {
+        width: 25px;
+        margin-top: 2px;
+        margin-left: 2px;
+        margin-right: 22px;
+    }
+}
+@media (min-width: 1200px) {
+    .ms-xl-7 {
+        margin-left: 4rem;
+    }
+    .me-xl-7 {
+        margin-right: 4rem;
+    }
+    .container-home .sottotitolo {
+        font-size: 23px;
+        
+    }
+    .container-home .titolo {
+        font-size: 26px;
+    }
+    .titolo {
+        font-size: 26px;
+    }
+    .sottotitolo {
+        font-size: 18px
+    }
+    .container-annata img {
+        width: 35px;
+        margin-right: 20px;
+        margin-top: -13px;
+    }
+    .denominazione img {
+        margin-top: -1px;
+    }
+    .gradazione img {
+        width: 37px;
+        margin-left: 12px;
+    }
+    .vinificazione img {
+        width: 37px;
+        margin-right: 18px;
+    }
+    .spaziatura-caratteri {
+        line-height: 36px!important;
+    }
+    .bottone-recensioni {
+        margin: 0 auto;
+        padding: 10px 65px!important;
+        border-radius: 0px 20px !important;
+        height: 48px!important;
+    }
+    .testo-titolo-degustazione{
+        font-size: 50px;
+        margin-bottom: 0;
+    }
+    .degustazione-contenuto img {
+        width: 100%;
+        border-radius: 110px;
+        height: 500px;
+        margin-top: 5.5rem;
+    }
+    .degustazione-contenuto-cucina img {
+        width: 100%;
+        border-radius: 110px;
+        height: 500px;
+        margin-top: 7.5rem;
+    }
+    .testo-titolo-contenuto-degustazione {
+        font-size: 1.4rem!important;
+        line-height: 47px;
+    }
+    .line-height-degustazione {
+        line-height: 47px;
+    }
+    .bottone-prenota {
+        margin: 0 auto;
+        padding: 10px 65px!important;
+        border-radius: 0px 20px !important;
+        height: 48px!important;
+    }
+    .bottone-vitigni {
+        padding: 10px 65px!important;
+        border-radius: 0px 20px !important;
+        height: 48px!important;
+    }
+    .titolo-modal {
+        font-size: 1.7rem!important;
+    }
+    .testo-modal {
+        font-size: 1.4rem!important;
+    }
+    .container-annata.telefono img {
+        width: 30px;
+    }
+    .container-annata.posizione img {
+        width: 30px;
+    }
+}
+.navbar-brand {
+    width: 200px;
+}
+#navbar li {
+    margin-right: 10px;
+}
+#nav-center li:nth-of-type(5) {
+    margin-right: 0;
+}
+#icone li:nth-of-type(4) {
+    margin-right: 0;
+}
+#navbar a {
+    color: #fff;
+}
+.navbar-brand img {
+    width: 50%;
+    height: 100px;
+}
+#nav-center {
+    margin: 0 auto!important;
+}
+#icone img {
+    width: 25px;
+    height: 25px;
+    margin-top: 4px;
+}
+#icone li:nth-of-type(1) img {
+    width: 30px;
+    height: 30px;
+}
+.attivo {
+    color: #FFD838!important;
+}
+.dropdown-l a{
+    color: #000!important;
+}
+.navbar-toggler {
+    border: 0!important;
+}
+.hambugher img {
+    width: 50px;
+    height: 50px;
+}
+@media (max-width: 992px) {
+    .card-col-sm {
+        justify-content: center;
+        display: flex;
+    }
+    .navbar-brand {
+        width: 100px;
+        margin: 0 auto;
+    }
+    .navbar-brand img {
+        width: 100%;
+        position: relative;
+        top: 0;
+        left: 16px;
+    }
+    #navbar button {
+        padding: 0 0;
+    }
+    #icone {
+        display: flex;
+        flex-direction: row;
+    }
+    #icone a {
+        margin-right: 20px;
+    }
+    .vino-cococciola {
+        width: 100%;
+        margin: 0 auto 1rem;
+    }
+    .vino-cerasuolo {
+        width: 100%;
+        margin: 0 auto 1rem;
+    }
+}
+@media (max-width: 768px) {
+    .navbar-brand {
+        width: 60px;
+        margin: 0 auto;
+    }
+    .navbar-brand img {
+        width: 100%;
+        height: 65px;
+        position: relative;
+        top: 0;
+        left: 16px;
+    }
+    .hambugher img {
+        width: 30px;
+        height: 30px;
+    }
+    #icone img {
+        width: 23px;
+        height: 23px;
+    }
+    #icone li:nth-of-type(1) img {
+        width: 26px;
+        height: 26px;
+    }
+    #nav-center a{
+        font-size: 1rem;
+    }
+    .vino-cococciola {
+        width: 82%;
+        margin: 0 auto 1rem;
+    }
+    .vino-cerasuolo {
+        width: 91.5%;
+        margin: 0 auto 1rem;
+    }
+}
+@media (max-width: 576px) {
+    .titolo-home-padding {
+        padding-right: 0!important;
+    }
+    .sottotitolo-home-padding {
+        padding-right: 0!important;
+    }
+    .titolo-card {
+        font-size: 0.55rem;
+        line-height: 20px;
+    }
+    .testo-card {
+        font-size: 0.5rem;
+        line-height: 20px;
+    }
+    .pb-5-padding-slider {
+        padding-bottom: 2.3rem;
+    }
+    .d-none-card-telefono {
+        display: none;
+    }
+    .card-col-sm {
+
+    }
+    .navbar-brand img {
+        width: 100%;
+        height: 55px;
+        position: relative;
+        top: 0;
+        left: 16px;
+    }
+    .hambugher img {
+        width: 27px;
+        height: 27px;
+    }
+    #nav-center a{
+        font-size: 0.6rem;
+    }
+    #icone img {
+        width: 14px;
+        height: 14px;
+    }
+    #icone li:nth-of-type(1) img {
+        width: 18px;
+        height: 18px;
+    }
+    #navbar li {
+        margin-right: 0px;
+    }
+    .slider-card-telefono {
+        border-radius: 0px 160px 0px 0px;
+    }
+    .slider-card-telefono img {
+        width: 90%;
+        margin: 0 auto;
+        padding: 20px 0;
+    }
+    .width-slider-telefono {
+        width: 70%;
+        margin: 0 auto;
+    }
+    .bottone-l {
+        border: 0;
+        background-color: transparent;
+        color: #fff;
+        font-size: 0.5rem;
+        margin: 0 auto;
+        display: flex;
+        line-height: 23px;
+        justify-content: space-between;
+    }
+    .quadrato {
+        width: 25px;
+        height: 23px;
+        border-radius: 9px 0px;
+        border: 2px solid #FFF;
+        margin-left: 13px;
+    }
+    .quadrato-tasto-back {
+        width: 25px;
+        height: 23px;
+        border-radius: 0px 9px;
+        border: 2px solid #FFF;
+        margin-left: 13px;
+    }
+    .bottone-l i {
+        margin-top: 19px;
+        font-size: 12px;
+        position: relative;
+        top: -10px;
+        right: -4px;
+    }
+    .cuore {
+        width: 25px;
+        margin-left: 13px;
+        background-image: url("../icone/icona_cuore.svg");
+        background-size: 25px;
+        background-repeat: no-repeat;
+        margin-top: 1px;
+    }
+    .bottone-l .cuore i {
+        margin-top: 20px;
+        font-size: 12px;
+        position: relative;
+        top: -10px;
+        right: -6px;
+    }
+    .cuore img {
+        width: 100%;
+    }
+    .cerchio-degustazione {
+        width: 60px;
+        height: 60px;
+        border-radius: 60px;
+        margin: 0 auto;
+    }
+    .vino-degustazione {
+        background-image: url("../icone/icons8-bar-64.png");
+        background-repeat: no-repeat;
+        background-size: 53px;
+        background-position: 3px;
+        background-color: #B22727 !important;
+    }
+    .cibo-vino-degustazione {
+        background-image: url("../icone/posate_e_piatto.svg");
+        background-repeat: no-repeat;
+        background-size: 40px;
+        background-position: 9px;
+        background-color: #3F9251 !important;
+    }
+    .vitigni-degustazione {
+        background-image: url("../icone/uva_per_vitigni.svg");
+        background-repeat: no-repeat;
+        background-size: 40px;
+        background-position: 9px;
+        background-color: #FFFFFF !important;
+    }
+    .vino-degustazione a {
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+    }
+    .cibo-vino-degustazione a {
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+    }
+    .vitigni-degustazione a {
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+    }
+    .cantina img {
+        border-radius: 80px 0;
+        height: 100%;
+    }
+    .cantina {
+        height: 240px;
+    }
+    .logo {
+        width: 55px;
+        margin: 0 auto;
+    }
+    .logo img {
+        width: 100%;
+    }
+    .stile-card-vini {
+        border-radius: 0px 160px 0px 0px;
+        width: 70%;
+        line-height: 28px;
+    }
+    .stile-card-vini img {
+        width: 90%;
+        margin: 0 auto;
+        padding-top: 23px;
+    }
+    .card-body {
+        padding-bottom: 0;
+    }
+    .button-vino {
+        width: 35px;
+        height: 30px;
+        border-radius: 15px 0px;
+        flex-shrink: 0;
+        border: 2px solid #FFF;
+        color: #fff;
+        display: inline-block;
+        margin-bottom: 26px;
+    }
+    .button-vino i {
+        font-size: 0.9rem;
+        position: relative;
+        top: -2px;
+        right: 0;
+    }
+    .bio-text {
+        margin: 10px auto;
+    }
+    .vino-text {
+        margin: 10px auto;
+    }
+}
+@media (min-width: 576px) {
+    .mt-sm-2rem {
+        margin-top: 2rem!important;
+    }
+    .stile-card {
+        border-radius: 0px 160px 0px 0px;
+        width: 85%;
+        line-height: 28px;
+    }
+    .titolo-card {
+        font-size: 1rem;
+    }
+    .testo-card {
+        font-size: 0.85rem;
+    }
+    .stile-card img {
+        width: 90%;
+        margin: 0 auto;
+        padding-top: 23px;
+    }
+    .button-vino {
+        width: 45px;
+        height: 40px;
+        border-radius: 20px 0px;
+        flex-shrink: 0;
+        border: 2px solid #FFF;
+        color: #fff;
+        display: inline-block;
+        margin-bottom: 13px;
+    }
+    .button-vino i {
+        margin-top: 17px;
+    }
+    .bottone-l {
+        border: 0;
+        background-color: transparent;
+        color: #fff;
+        font-size: 0.85rem;
+        margin: 0 auto;
+        display: flex;
+        line-height: 31px;
+        justify-content: space-between;
+        margin-top: 1.3rem;
+    }
+    .quadrato {
+        width: 38px;
+        height: 34px;
+        border-radius: 17px 0px;
+        border: 2px solid #FFF;
+        margin-left: 16px;
+    }
+    .quadrato-tasto-back {
+        width: 38px;
+        height: 34px;
+        border-radius: 0 17px;
+        border: 2px solid #FFF;
+        margin-left: 16px;
+    }
+    .bottone-l i {
+        margin-top: 19px;
+        font-size: 16px;
+        position: relative;
+        top: -5px;
+        right: -9px;
+    }
+    .cuore {
+        width: 38px;
+        margin-left: 16px;
+        background-image: url("../icone/icona_cuore.svg");
+        background-size: 38px;
+        background-repeat: no-repeat;
+    }
+    .bottone-l .cuore i {
+        margin-top: 20px;
+        font-size: 16px;
+        position: relative;
+        top: -4px;
+        right: -11px;
+    }
+    .cuore img {
+        width: 100%;
+    }
+    .cerchio-degustazione {
+        width: 100px;
+        height: 100px;
+        border-radius: 100px;
+        margin: 0 auto;
+    }
+    .vino-degustazione {
+        background-image: url("../icone/icons8-bar-64.png");
+        background-repeat: no-repeat;
+        background-size: 85px;
+        background-position: 7px;
+        background-color: #B22727 !important;
+    }
+    .cibo-vino-degustazione {
+        background-image: url("../icone/posate_e_piatto.svg");
+        background-repeat: no-repeat;
+        background-size: 65px;
+        background-position: 17px;
+        background-color: #3F9251 !important;
+    }
+    .vitigni-degustazione {
+        background-image: url("../icone/uva_per_vitigni.svg");
+        background-repeat: no-repeat;
+        background-size: 65px;
+        background-position: 17px;
+        background-color: #FFFFFF !important;
+    }
+    .vino-degustazione a {
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+    }
+    .cibo-vino-degustazione a {
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+    }
+    .vitigni-degustazione a {
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+    }
+    .cantina img {
+        border-radius: 120px 0;
+        height: 100%;
+    }
+    .cantina {
+        height: 340px;
+    }
+    .logo {
+        width: 70px;
+        margin: 0 auto;
+    }
+    .logo img {
+        width: 100%;
+    }
+    .bio-text {
+        margin: 7px auto;
+    }
+    .vino-text {
+        margin: 7px auto;
+    }
+}
+@media (min-width: 768px) {
+    .mt-md-2rem {
+        margin-top: 2rem!important;
+    }
+    .mb-md-2rem {
+        margin-bottom: 2rem!important;
+    }
+    .mb-md-7 {
+        margin-bottom: 4rem!important;
+    }
+    .mt-md-6 {
+        margin-top: 3.5rem!important;
+    }
+    .mt-md-7 {
+        margin-top: 4rem!important;
+    }
+    .mt-md-8 {
+        margin-top: 4.5rem!important;
+    }
+    .mt-md-9 {
+        margin-top: 5rem!important;
+    }
+    .bottone-l {
+        border: 0;
+        background-color: transparent;
+        color: #fff;
+        font-size: 0.9rem;
+        margin: 0 auto;
+        display: flex;
+        line-height: 34px;
+        justify-content: space-between;
+        margin-top: 1.5rem;
+    }
+    .quadrato {
+        width: 40px;
+        height: 36px;
+        border-radius: 17px 0px;
+        border: 2px solid #FFF;
+        margin-left: 18px;
+    }
+    .quadrato-tasto-back {
+        width: 40px;
+        height: 36px;
+        border-radius: 0 17px;
+        border: 2px solid #FFF;
+        margin-left: 18px;
+    }
+    .bottone-l i {
+        margin-top: 19px;
+        font-size: 17px;
+        position: relative;
+        top: -4px;
+        right: -10px;
+    }
+    .cuore {
+        width: 40px;
+        margin-left: 18px;
+        background-image: url("../icone/icona_cuore.svg");
+        background-size: 40px;
+        background-repeat: no-repeat;
+    }
+    .bottone-l .cuore i {
+        margin-top: 19px;
+        font-size: 17px;
+        position: relative;
+        top: -3px;
+        right: -11px;
+    }
+    .cuore img {
+        width: 100%;
+    }
+    .stile-card {
+        border-radius: 0px 160px 0px 0px;
+        width: 85%;
+        line-height: 28px;
+    }
+    .stile-card img {
+        width: 90%;
+        margin: 0 auto;
+        padding-top: 45px;
+    }
+    .titolo-card {
+        font-size: 1.1rem;
+    }
+    .testo-card {
+        font-size: 0.9rem;
+    }
+    .button-vino {
+        width: 45px;
+        height: 40px;
+        border-radius: 20px 0px;
+        flex-shrink: 0;
+        border: 2px solid #FFF;
+        color: #fff;
+        display: inline-block;
+        margin: 5px auto 19px;
+    }
+    .button-vino i {
+        margin-top: 17px;
+    }
+    .cerchio-degustazione {
+        width: 150px;
+        height: 150px;
+        border-radius: 100px;
+        margin: 0 auto;
+    }
+    .vino-degustazione {
+        background-image: url("../icone/icons8-bar-64.png");
+        background-repeat: no-repeat;
+        background-size: 105px;
+        background-position: 21px;
+        background-color: #B22727 !important;
+    }
+    .cibo-vino-degustazione {
+        background-image: url("../icone/posate_e_piatto.svg");
+        background-repeat: no-repeat;
+        background-size: 85px;
+        background-position: 30px;
+        background-color: #3F9251 !important;
+    }
+    .vitigni-degustazione {
+        background-image: url("../icone/uva_per_vitigni.svg");
+        background-repeat: no-repeat;
+        background-size: 85px;
+        background-position: 30px;
+        background-color: #FFFFFF !important;
+    }
+    .vino-degustazione a {
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+    }
+    .cibo-vino-degustazione a {
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+    }
+    .vitigni-degustazione a {
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+    }
+    .cantina img {
+        border-radius: 140px 0;
+        height: 100%;
+    }
+    .cantina {
+        height: 450px;
+    }
+    .logo {
+        width: 130px;
+        margin: 0 auto;
+    }
+    .logo img {
+        width: 100%;
+    }
+}
+@media (min-width: 992px) {
+    .mb-lg-0 {
+        margin-bottom: 0!important;
+    }
+    .mt-lg-5 {
+        margin-top: 3rem!important;
+    }
+    .mt-lg-6 {
+        margin-top: 3.5rem!important;
+    }
+    .mt-lg-7 {
+        margin-top: 4rem!important;
+    }
+    .mt-lg-8 {
+        margin-top: 4.5rem!important;
+    }
+    .mt-lg-9 {
+        margin-top: 5rem!important;
+    }
+    .titolo-card {
+        font-size: 1.2rem;
+    }
+    .testo-card {
+        font-size: 1rem;
+    }
+    .button-vino {
+        width: 45px;
+        height: 40px;
+        border-radius: 20px 0px;
+        flex-shrink: 0;
+        border: 2px solid #FFF;
+        color: #fff;
+        display: inline-block;
+    }
+    .button-vino:hover {
+        background-color: #fff;
+        transition: all 0.6s ease-out;
+    }
+    .button-vino i {
+        margin-top: 17px;
+    }
+    .button-vino:hover i {
+        color: #000;
+        transition: all 0.6s ease-out;
+    }
+    .stile-card {
+        border-radius: 0px 130px 0px 0px;
+        width: 100%;
+        height: 100%;
+    }
+    .vino-cococciola {
+        width: 90%;
+        margin: 0 auto 1rem;
+    }
+    .bottone-l {
+        border: 0;
+        background-color: transparent;
+        color: #fff;
+        font-size: 1.125rem;
+        margin: 0 auto;
+        display: flex;
+        line-height: 37px;
+        justify-content: space-between;
+        margin-top: 1.5rem;
+    }
+    .quadrato {
+        width: 42px;
+        height: 38px;
+        border-radius: 20px 0px;
+        border: 2px solid #FFF;
+        margin-left: 20px;
+    }
+    .bottone-l:hover .quadrato {
+        background-color: #fff;
+        transition: all 0.6s ease-out;
+    }
+    .bottone-l i {
+        margin-top: 19px;
+        font-size: 20px;
+        position: relative;
+        top: -3px;
+        right: -9px;
+    }
+    .bottone-l:hover i {
+        color: #000;
+        transition: all 0.6s ease-out;
+    }
+    .cuore {
+        width: 45px;
+        margin-left: 20px;
+        background-image: url("../icone/icona_cuore.svg");
+        background-size: 45px;
+        background-repeat: no-repeat;
+        margin-top: -1px;
+    }
+    .bottone-l:hover .cuore {
+        transition: all 0.6s ease-out;
+        background-image: url("../icone/icona_cuore_hover.svg");
+    }
+    .bottone-l .cuore i {
+        margin-top: 22px;
+        font-size: 20px;
+        position: relative;
+        top: -3px;
+        right: -12px;
+    }
+    .cerchio-degustazione {
+        width: 150px;
+        height: 150px;
+        border-radius: 100px;
+        margin: 0 auto;
+        background-color: #212529 !important;
+    }
+    .vino-degustazione {
+        background-image: url("../icone/icons8-bar-64.png");
+        background-repeat: no-repeat;
+        background-size: 105px;
+        background-position: 21px;
+    }
+    .cibo-vino-degustazione {
+        background-image: url("../icone/posate_e_piatto.svg");
+        background-repeat: no-repeat;
+        background-size: 85px;
+        background-position: 30px;
+    }
+    .vitigni-degustazione {
+        background-image: url("../icone/uva_per_vitigni.svg");
+        background-repeat: no-repeat;
+        background-size: 85px;
+        background-position: 30px;
+    }
+    .vino-degustazione:hover {
+        background-color: #B22727 !important;
+        transition: all 0.6s ease-out;
+    }
+    .cibo-vino-degustazione:hover {
+        background-color: #3F9251 !important;
+        transition: all 0.6s ease-out;
+    }
+    .vitigni-degustazione:hover {
+        background-color: #FFFFFF !important;
+        transition: all 0.6s ease-out;
+    }
+    .vino-degustazione a {
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+    }
+    .cibo-vino-degustazione a {
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+    }
+    .vitigni-degustazione a {
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+    }
+    .cantina img {
+        border-radius: 160px 0;
+        height: 100%;
+    }
+    .cantina {
+        height: 550px;
+    }
+    .logo {
+        width: 130px;
+        margin: 0 auto;
+    }
+    .logo img {
+        width: 100%;
+    }
+}
+@media (min-width: 1200px) {
+    .mt-xl-2rem {
+        margin-top: 2rem!important;
+    }
+    .mt-xl-6 {
+        margin-top: 3.5rem!important;
+    }
+    .mt-xl-7 {
+        margin-top: 4rem!important;
+    }
+    .mb-xl-7 {
+        margin-bottom: 4rem!important;
+    }
+    .mt-xl-8 {
+        margin-top: 4.5rem!important;
+    }
+    .mt-xl-9 {
+        margin-top: 5rem!important;
+    }
+    .mt-xl-10 {
+        margin-top: 5.5rem!important;
+    }
+    .mt-xl-11 {
+        margin-top: 6rem!important;
+    }
+    .titolo-card {
+        font-size: 1.3rem;
+    }
+    .testo-card {
+        font-size: 1.125rem;
+    }
+    .vino-cococciola {
+        width: 100%;
+        margin: 0 auto 1rem;
+    }
+    .button-vino {
+        width: 54px;
+        height: 48px;
+        border-radius: 25px 0px;
+        flex-shrink: 0;
+        border: 2px solid #FFF;
+        color: #fff;
+        display: inline-block;
+    }
+    .button-vino i {
+        margin-top: 22px;
+    }
+    .bottone-l {
+        margin-top: 2rem;
+    }
+    .stile-card {
+        border-radius: 0px 160px 0px 0px;
+    }
+    .mx-xl-8 {
+        margin: 0 4.5rem!important;
+    }
+    .mx-xl-9 {
+        margin: 0 5rem!important;
+    }
+    .mx-xl-10 {
+        margin: 0 5.5rem!important;
+    }
+    .cantina img {
+        border-radius: 180px 0;
+        height: 100%;
+    }
+    .cantina {
+        height: 650px;
+    }
+    .bio-text {
+        margin: 0 auto;
+    }
+    .vino-text {
+        margin: 0 auto;
+    }
+}
+@media (min-width: 1400px) {
+    .stile-card {
+        border-radius: 0px 170px 0px 0px;
+    }
+    .testo-card {
+        font-size: 1.125rem;
+    }
+    .vino-cococciola {
+        width: 90%;
+        margin: 0 auto 1rem;
+    }
+    .cantina {
+        height: 850px;
+    }
+    .container-annata.telefono img {
+        width: 35px;
+    }
+    .container-annata.posizione img {
+        width: 35px;
+    }
+}
+.navbar-before-scroll {
+    background-color: #000;
+    transition: background 0.5s ease-in-out, padding 0.5s ease-in-out
+}
+.navbar-after-scroll {
+    background-color: #fff!important;
+    transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+}
+.navbar-before-scroll.navbar-after-scroll {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.navbar-after-scroll .nav-link {
+    color: #000!important;
+}
+.navbar-after-scroll .attivo {
+    color: #ffd21e!important;
+}
+.mt-2rem {
+    margin-top: 2rem !important;
+}
+.cantina img {
+    width: 100%;
+}
+.testo-cantina {
+    margin: 0 auto;
+    text-align: center;
+}
+.vitigni {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.vitigni .trebbiano {
+    z-index: 2;
+    position: relative;
+    width: 55%;
+    margin: 0px 2rem 0 auto;
+    border-radius: 0 80px;
+    background-image: url("../img/vitigno-trebbiano.jpg");
+    height: 297px;
+    background-repeat: no-repeat;
+    background-size: 340px;
+}
+.vitigni .montepulciano {
+    z-index: 1;
+    position: relative;
+    width: 55%;
+    margin: -7rem auto 0 2rem;
+    border-radius: 215px 215px 0 315px;
+    background-image: url("../img/vitigno-montepulciano.jpg");
+    height: 297px;
+    background-repeat: no-repeat;
+    background-size: 340px;
+}
+.vitigni .titolo {
+    line-height: 297px;
+}
+.newsletter {
+    border-radius: 0 100px;
+    background-image: url("../img/foto_newsletter_scura.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 221px;
+}
+.newsletter .testo-newsletter {
+    font-size: 0.5rem;
+    line-height: 20px;
+    width: 100%;
+    margin-top: 0.2rem;
+}
+.email-newsletter {
+    width: 81%;
+    font-size: 0.5rem;
+    height: 30px;
+}
+.btn-newsletter {
+    width: 65%;
+    background-color: #63494A;
+    margin-top: 1.5rem;
+    border: 0;
+    border-radius: 0 50px;
+    color: #fff;
+    font-size: 0.5rem;
+    height: 30px;
+}
+#link {
+    color: #fff;
+    display: flex;
+    list-style-type: none;
+    margin: 0 auto;
+    justify-content: space-between;
+    width: 94%;
+    padding-right: 0;
+    padding-left: 18px;
+    font-weight: bold;
+    flex-direction: column!important;
+}
+#link li {
+    margin-bottom: 10px;
+}
+#link li:nth-of-type(5) {
+    margin-right: 0;
+}
+#link a {
+    font-size: 0.5rem;
+}
+.border-privacy {
+    border-top: 1.5px solid #fff;
+}
+.privacy-policy {
+    margin-right: 1px!important;
+}
+.privacy-policy:hover {
+    text-decoration: underline 1px solid #fff!important;
+}
+.cookie-policy:hover {
+    text-decoration: underline 1px solid #fff!important;
+    background-image: url();
+}
+/* pagina vini */
+.button-vini {
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    z-index: 1;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: 2px solid #fff;
+    font-weight: bold;
+    color: #e6bd1b;
+    padding: 0px 45px;
+    border-radius: 0 33px;
+    background-color: #fff;
+    margin-right: 1rem;
+    font-size: 0.5rem;
+    height: 36px;
+  }
+  .button-vini:hover {
+    background-color: #fff;
+  }
+  .c-button {
+    color: #e6bd1b;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    z-index: 1;
+    background-color: #000;
+    border: 2px solid #fff;
+    padding: 0px 49px;
+    border-radius: 0 33px;
+    height: 36px;
+    font-size: 0.5rem;
+  }
+  
+  .c-button--gooey {
+    letter-spacing: 2px;
+    position: relative;
+    transition: all 700ms ease;
+  }
+  
+  .c-button--gooey .c-button__blobs {
+    height: 100%;
+    filter: url(#goo);
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: -3px;
+    right: -1px;
+    z-index: -1;
+    border-radius: 0 40px;
+  } 
+  .c-button--gooey .c-button__blobs div {
+    background-color: #fff;
+    width: 34%;
+    height: 100%;
+    border-radius: 0 160px;
+    position: absolute;
+    transform: scale(1.4) translateY(-125%) translateZ(0);
+    transition: all 700ms ease;
+  }
+  
+  .c-button--gooey .c-button__blobs div:nth-child(1) {
+    left: -5%;
+  }
+  
+  .c-button--gooey .c-button__blobs div:nth-child(2) {
+    left: 30%;
+    transition-delay: 60ms;
+  }
+  
+  .c-button--gooey .c-button__blobs div:nth-child(3) {
+    left: 66%;
+    transition-delay: 25ms;
+  }
+  /* Hover styles */
+  .c-button--gooey:hover {
+    color: #e6bd1b;
+    background-color: #ffffff;
+  }
+  .c-button--gooey:hover .c-button__blobs div {
+    transform: scale(1.4) translateY(0) translateZ(0);
+    border-radius: 0 160px;
+  }
+  .margin-button-vini-bio {
+    margin-right: 1rem;
+  }
+  .margin-titolo-modal {
+    margin: auto auto 10px!important;
+  }
+  .container-btn-modal {
+    margin-top: 7px;
+    margin-bottom: auto;
+    margin-top: 1rem;
+  }
+  .btn-no-18 {
+    padding: 5px 12px;
+    margin-right: 10px;
+    box-shadow: 0px 3px 6px 0px #084182;
+    font-size: 10px;
+  }
+  .btn-18 {
+    padding: 5px 26px;
+    font-size: 10px;
+  }
+  .container-text-degustazione {
+    margin: 7.3rem auto;
+    text-align: center;
+  }
+  .testo-degustazione {
+    line-height: 20px;
+    width: 94%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .margin-titolo-bottone-vitigni {
+    margin: 8rem 0;
+  }
+  .padding-vitigni {
+    padding: 0 12px;
+  }
+    @media (min-width: 400px) {
+    .vitigni .trebbiano {
+        z-index: 2;
+        position: relative;
+        width: 50%;
+        margin: 0px 2rem 0 auto;
+        border-radius: 0 90px;
+        background-image: url("../img/vitigno-trebbiano.jpg");
+        height: 330px;
+        background-repeat: no-repeat;
+        background-size: 430px;
+    }
+    .vitigni .montepulciano {
+        z-index: 1;
+        position: relative;
+        width: 50%;
+        margin: -8rem auto 0 2rem;
+        border-radius: 230px 230px 0 330px;
+        background-image: url("../img/vitigno-montepulciano.jpg");
+        height: 330px;
+        background-repeat: no-repeat;
+        background-size: 430px;
+    }
+    .vitigni .titolo {
+        line-height: 330px;
+    }
+    .newsletter {
+        border-radius: 0 100px;
+        background-image: url("../img/foto_newsletter_scura.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 221px;
+    }
+    .newsletter .testo-newsletter {
+        font-size: 0.5rem;
+        line-height: 20px;
+        width: 100%;
+        margin-top: 0.2rem;
+    }
+    .email-newsletter {
+        width: 94%;
+    }
+    .btn-newsletter {
+        width: 70%;
+        background-color: #63494A;
+        margin-top: 1.5rem;
+    }
+    .btn-newsletter:hover {
+        background-color: #63494A!important;
+        opacity: 1!important;
+    }
+    #link {
+        color: #fff;
+        display: flex;
+        list-style-type: none;
+        margin: 0 auto;
+        justify-content: space-between;
+        width: 86%;
+        padding-right: 0;
+        font-weight: bold;
+    }
+    #link li {
+        margin-right: 5px;
+    }
+    #link li:nth-of-type(5) {
+        margin-right: 0;
+    }
+    #link a {
+        font-size: 0.5rem;
+    }
+    .container-text-degustazione {
+        margin: 7rem auto;
+        text-align: left;
+    }
+    .testo-degustazione {
+        line-height: 25px;
+        width: 73%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .container-degustazione .col-12 {
+        background-size: 100%;
+        background-position: initial;
+    }
+    .container-vitigni .col-12 {
+        background-size: 100%;
+        background-position: initial;
+    }
+    .margin-titolo-bottone-vitigni {
+        margin: 11rem 0;
+    }
+}
+@media (min-width: 470px) {
+    .vitigni .trebbiano {
+        z-index: 2;
+        position: relative;
+        width: 45%;
+        margin: 0px 4rem 0 auto;
+        border-radius: 0 110px;
+        background-image: url("../img/vitigno-trebbiano.jpg");
+        height: 375px;
+        background-repeat: no-repeat;
+        background-size: 430px;
+    }
+    .vitigni .montepulciano {
+        z-index: 1;
+        position: relative;
+        width: 45%;
+        margin: -10rem auto 0 4rem;
+        border-radius: 260px 260px 0 360px;
+        background-image: url("../img/vitigno-montepulciano.jpg");
+        height: 375px;
+        background-repeat: no-repeat;
+        background-size: 430px;
+    }
+    .vitigni .titolo {
+        line-height: 375px;
+    }
+    .newsletter {
+        border-radius: 0 100px;
+        background-image: url("../img/foto_newsletter_scura.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 275px;
+    }
+    .newsletter .titolo {
+        margin-top: 3.65rem !important;
+    }
+    #link {
+        color: #fff;
+        display: flex;
+        list-style-type: none;
+        margin: 0 auto;
+        justify-content: space-between;
+        width: 80%;
+        padding-right: 0;
+        font-weight: bold;
+    }
+    #link li {
+        margin-right: 5px;
+    }
+    #link li:nth-of-type(5) {
+        margin-right: 0;
+    }
+    #link a {
+        font-size: 0.5rem;
+    }
+    .container-text-degustazione {
+        margin: 8rem auto;
+    }
+    .testo-degustazione {
+        line-height: 25px;
+        width: 65%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .margin-titolo-bottone-vitigni {
+        margin: 12rem 0;
+    }
+}
+@media (min-width: 576px) {
+    .vitigni .trebbiano {
+        z-index: 2;
+        position: relative;
+        width: 42%;
+        margin: 0px 6rem 0 auto;
+        border-radius: 0 120px;
+        background-image: url("../img/vitigno-trebbiano.jpg");
+        height: 390px;
+        background-repeat: no-repeat;
+        background-size: 430px;
+    }
+    .vitigni .montepulciano {
+        z-index: 1;
+        position: relative;
+        width: 42%;
+        margin: -14rem auto 0 6rem;
+        border-radius: 270px 270px 0 370px;
+        background-image: url("../img/vitigno-montepulciano.jpg");
+        height: 390px;
+        background-repeat: no-repeat;
+        background-size: 430px;
+    }
+    .vitigni .titolo {
+        line-height: 389px;
+    }
+    .newsletter {
+        border-radius: 0px 120px;
+        background-image: url("../img/foto_newsletter_scura.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 340px;
+    }
+    .riquadro-newsletter {
+        margin-left: 3rem;
+        border-radius: 0 50px;
+    }
+    .newsletter .titolo {
+        margin-top: 3.5rem !important;
+        padding-top: 1.5rem;
+    }
+    .newsletter .testo-newsletter {
+        font-size: 0.85rem;
+        line-height: 20px;
+        width: 100%;
+        margin-top: 0.2rem;
+    }
+    .email-newsletter {
+        width: 100%;
+        font-size: 0.85rem;
+        height: 40px;
+        border: 2px solid #000;
+    }
+    .btn-newsletter {
+        width: 89%;
+        background-color: #63494A;
+        margin-top: 1.5rem;
+        border: 0;
+        border-radius: 0 50px;
+        color: #fff;
+        font-size: 0.85rem;
+        height: 40px;
+    }
+    .padding-bottom-form {
+        padding-bottom: 1.5rem!important;
+    }
+    #link {
+        color: #fff;
+        display: flex;
+        list-style-type: none;
+        margin: 0 auto;
+        justify-content: space-between;
+        width: 80%;
+        padding-right: 0;
+        font-weight: bold;
+        flex-direction: row!important;
+        padding-left: 0;
+    }
+    #link li {
+        margin-right: 5px;
+    }
+    #link li:nth-of-type(5) {
+        margin-right: 0;
+    }
+    #link a {
+        font-size: 0.85rem;
+    }
+    .button-vini {
+        text-decoration: none;
+        cursor: pointer;
+        display: inline-block;
+        vertical-align: middle;
+        position: relative;
+        z-index: 1;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        border: 2px solid #fff;
+        font-weight: bold;
+        color: #e6bd1b;
+        padding: 0px 55px;
+        border-radius: 0 38px;
+        background-color: #fff;
+        margin-right: 2rem;
+        font-size: 0.85rem;
+        height: 36px;
+      }
+      .button-vini:hover {
+        background-color: #fff;
+      }
+      .c-button {
+        color: #e6bd1b;
+        font-weight: bold;
+        text-decoration: none;
+        cursor: pointer;
+        display: inline-block;
+        vertical-align: middle;
+        position: relative;
+        z-index: 1;
+        background-color: #000;
+        border: 2px solid #fff;
+        padding: 0px 58px;
+        border-radius: 0 38px;
+        height: 36px;
+        font-size: 0.85rem;
+      }
+      
+      .c-button--gooey {
+        letter-spacing: 2px;
+        position: relative;
+        transition: all 700ms ease;
+      }
+      
+      .c-button--gooey .c-button__blobs {
+        height: 100%;
+        filter: url(#goo);
+        overflow: hidden;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: -3px;
+        right: -1px;
+        z-index: -1;
+        border-radius: 0 40px;
+      } 
+      .c-button--gooey .c-button__blobs div {
+        background-color: #fff;
+        width: 34%;
+        height: 100%;
+        border-radius: 0 160px;
+        position: absolute;
+        transform: scale(1.4) translateY(-125%) translateZ(0);
+        transition: all 700ms ease;
+      }
+      
+      .c-button--gooey .c-button__blobs div:nth-child(1) {
+        left: -5%;
+      }
+      
+      .c-button--gooey .c-button__blobs div:nth-child(2) {
+        left: 30%;
+        transition-delay: 60ms;
+      }
+      
+      .c-button--gooey .c-button__blobs div:nth-child(3) {
+        left: 66%;
+        transition-delay: 25ms;
+      }
+      .chardonnay {
+        width: 92%;
+        margin: 0 auto 1rem;
+      }
+      .pecorino {
+        width: 82%;
+        margin: 0 auto 1rem;
+      }
+      .spumante-rose-brut {
+        width: 98%;
+        margin: 0 auto 1rem;
+      }
+      .margin-button-vini-bio {
+        margin-right: 2rem;
+      }
+      .bio-montepulciano {
+        width: 86%;
+        margin: 0 auto 1rem;
+      }
+      .bio-rose {
+        width: 87%;
+        margin: 0 auto 1rem;
+    }
+    .bio-moscato {
+        width: 87%;
+        margin: 0 auto 1rem;
+    }
+    .container-btn-modal {
+        margin-top: 7px;
+        margin-bottom: auto;
+        margin-top: 1rem;
+    }
+    .btn-no-18 {
+        padding: 5px 12px;
+        margin-right: 10px;
+        box-shadow: 0px 3px 6px 0px #084182;
+        font-size: 13px;
+    }
+    .btn-18 {
+        padding: 5px 30px;
+        font-size: 13px;
+    }
+    .container-text-degustazione {
+        margin: 10rem auto;
+    }
+    .testo-degustazione {
+        line-height: 30px;
+        width: 75%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .margin-titolo-bottone-vitigni {
+        margin: 15rem 0;
+    }
+}
+@media (min-width: 660px) {
+    .vitigni .trebbiano {
+        z-index: 2;
+        position: relative;
+        width: 39%;
+        margin: 0px 8rem 0 auto;
+        border-radius: 0 120px;
+        background-image: url("../img/vitigno-trebbiano.jpg");
+        height: 413px;
+        background-repeat: no-repeat;
+        background-size: 430px;
+    }
+    .vitigni .montepulciano {
+        z-index: 1;
+        position: relative;
+        width: 39%;
+        margin: -14rem auto 0 8rem;
+        border-radius: 270px 270px 0 370px;
+        background-image: url("../img/vitigno-montepulciano.jpg");
+        height: 413px;
+        background-repeat: no-repeat;
+        background-size: 430px;
+    }
+    .vitigni .titolo {
+        line-height: 413px;
+    }
+    .newsletter {
+        border-radius: 0px 120px;
+        background-image: url("../img/foto_newsletter_scura.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 340px;
+    }
+    .chardonnay {
+        width: 87%;
+        margin: 0 auto 1rem;
+    }
+    .pecorino {
+        width: 73%;
+        margin: 0 auto 1rem;
+    }
+    .cococciola-spumante {
+        width: 89%;
+        margin: 0 auto 1rem;
+    }
+    .bio-vino-cococciola {
+        width: 82%;
+        margin: 0 auto 1rem;
+    }
+    .bio-rose {
+        width: 87%;
+        margin: 0 auto 1rem;
+    }
+    .container-text-degustazione {
+        margin: 12rem auto;
+    }
+    .testo-degustazione {
+        line-height: 30px;
+        width: 69%;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+@media (min-width: 768px) {
+    .vitigni .trebbiano {
+        z-index: 2;
+        position: relative;
+        width: 36%;
+        margin: 0 10rem 0 auto;
+        border-radius: 0 130px;
+        background-image: url("../img/vitigno-trebbiano.jpg");
+        height: 440px;
+        background-repeat: no-repeat;
+        background-size: 430px;
+      }
+    .vitigni .montepulciano {
+        z-index: 1;
+        position: relative;
+        width: 36%;
+        margin: -14rem auto 0 10rem;
+        border-radius: 280px 280px 0 380px;
+        background-image: url("../img/vitigno-montepulciano.jpg");
+        height: 440px;
+        background-repeat: no-repeat;
+        background-size: 430px;
+    }
+    .vitigni .titolo {
+        line-height: 445px;
+    }
+    .newsletter {
+        border-radius: 0px 140px;
+        background-image: url("../img/foto_newsletter_scura.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 450px;
+    }
+    .riquadro-newsletter {
+        margin-left: 3rem;
+        border-radius: 0 50px;
+    }
+    .newsletter .titolo {
+        margin-top: 4.5rem !important;
+        padding-top: 3rem;
+    }
+    .newsletter .testo-newsletter {
+        font-size: 0.9rem;
+        line-height: 20px;
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .email-newsletter {
+        width: 100%;
+        font-size: 0.9rem;
+        height: 50px;
+        border: 2px solid #000;
+    }
+    .btn-newsletter {
+        width: 89%;
+        background-color: #63494A;
+        margin-top: 1.5rem;
+        border: 0;
+        border-radius: 0 50px;
+        color: #fff;
+        font-size: 0.9rem;
+        height: 50px;
+    }
+    .padding-bottom-form {
+        padding-bottom: 3rem!important;
+    }
+    #link {
+        color: #fff;
+        display: flex;
+        list-style-type: none;
+        margin: 0 auto;
+        justify-content: space-between;
+        width: 80%;
+        padding-right: 0;
+        font-weight: bold;
+    }
+    #link li {
+        margin-right: 5px;
+    }
+    #link li:nth-of-type(5) {
+        margin-right: 0;
+    }
+    #link a {
+        font-size: 0.9rem;
+    }
+    .button-vini {
+        text-decoration: none;
+        cursor: pointer;
+        display: inline-block;
+        vertical-align: middle;
+        position: relative;
+        z-index: 1;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        border: 2px solid #fff;
+        font-weight: bold;
+        color: #e6bd1b;
+        padding: 0px 61px;
+        border-radius: 0 38px;
+        background-color: #fff;
+        margin-right: 2.5rem;
+        font-size: 0.9rem;
+        height: 41px;
+    }
+    .button-vini:hover {
+        background-color: #fff;
+    }
+    .c-button {
+        color: #e6bd1b;
+        font-weight: bold;
+        text-decoration: none;
+        cursor: pointer;
+        display: inline-block;
+        vertical-align: middle;
+        position: relative;
+        z-index: 1;
+        background-color: #000;
+        border: 2px solid #fff;
+        padding: 0px 67px;
+        border-radius: 0 38px;
+        height: 41px;
+        font-size: 0.9rem;
+    }
+      
+    .c-button--gooey {
+        letter-spacing: 2px;
+        position: relative;
+        transition: all 700ms ease;
+    }
+      
+    .c-button--gooey .c-button__blobs {
+        height: 100%;
+        filter: url(#goo);
+        overflow: hidden;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: -3px;
+        right: -1px;
+        z-index: -1;
+        border-radius: 0 40px;
+    } 
+    .c-button--gooey .c-button__blobs div {
+        background-color: #fff;
+        width: 34%;
+        height: 100%;
+        border-radius: 0 160px;
+        position: absolute;
+        transform: scale(1.4) translateY(-125%) translateZ(0);
+        transition: all 700ms ease;
+    }
+      
+    .c-button--gooey .c-button__blobs div:nth-child(1) {
+        left: -5%;
+    }
+      
+    .c-button--gooey .c-button__blobs div:nth-child(2) {
+        left: 30%;
+        transition-delay: 60ms;
+    }
+      
+    .c-button--gooey .c-button__blobs div:nth-child(3) {
+        left: 66%;
+        transition-delay: 25ms;
+    }
+    .chardonnay {
+        width: 100%;
+    }
+    .cococciola-spumante {
+        width: 100%;
+    }
+    .spumante-rose-brut {
+        width: 95%;
+    }
+    .margin-button-vini-bio {
+        margin-right: 2.5rem;
+    }
+    .bio-montepulciano {
+        width: 100%;
+        margin: 0 auto 1rem;
+    }
+    .bio-vino-cococciola {
+        width: 100%;
+        margin: 0 auto 1rem;
+    }
+    .bio-moscato {
+        width: 100%;
+        margin: 0 auto 1rem;
+    }
+    .container-btn-modal {
+        margin-top: 7px;
+        margin-bottom: auto;
+        margin-top: 1rem;
+    }
+    .btn-no-18 {
+        padding: 6px 20px;
+        margin-right: 15px;
+        box-shadow: 0px 3px 6px 0px #084182;
+        font-size: 16px;
+    }
+    .btn-18 {
+        padding: 6px 42px;
+        font-size: 16px;
+    }
+    .container-text-degustazione {
+        margin: 14rem auto;
+    }
+    .testo-degustazione {
+        line-height: 35px;
+        width: 67%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .margin-titolo-bottone-vitigni {
+        margin: 17rem 0;
+    }
+}
+@media (min-width: 875px) {
+    .vitigni .trebbiano {
+        z-index: 2;
+        position: relative;
+        width: 33%;
+        margin: 0 13rem 0 auto;
+        border-radius: 0 130px;
+        background-image: url("../img/vitigno-trebbiano.jpg");
+        height: 470px;
+        background-repeat: no-repeat;
+        background-size: 430px;
+      }
+    .vitigni .montepulciano {
+        z-index: 1;
+        position: relative;
+        width: 33%;
+        margin: -14rem auto 0 13rem;
+        border-radius: 280px 280px 0 380px;
+        background-image: url("../img/vitigno-montepulciano.jpg");
+        height: 470px;
+        background-repeat: no-repeat;
+        background-size: 430px;
+    }
+    .vitigni .titolo {
+        line-height: 465px;
+    }
+    .newsletter {
+        border-radius: 0px 140px;
+        background-image: url("../img/foto_newsletter_scura.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 450px;
+    }
+    .container-text-degustazione {
+        margin: 16rem auto;
+    }
+    .testo-degustazione {
+        line-height: 35px;
+        width: 62%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .margin-titolo-bottone-vitigni {
+        margin: 19rem 0;
+    }
+}
+@media (min-width: 992px) {
+    .vitigni .trebbiano {
+        z-index: 2;
+        position: relative;
+        width: 30%;
+        margin: 0 18rem 0 auto;
+        border-radius: 0 130px;
+        background-image: url("../img/vitigno-trebbiano.jpg");
+        height: 500px;
+        background-repeat: no-repeat;
+        background-size: 670px;
+      }
+    .vitigni .montepulciano {
+        z-index: 1;
+        position: relative;
+        width: 30%;
+        margin: -14rem auto 0 18rem;
+        border-radius: 280px 280px 0 380px;
+        background-image: url("../img/vitigno-montepulciano.jpg");
+        height: 500px;
+        background-repeat: no-repeat;
+        background-size: 670px;
+    }
+    .vitigni .titolo {
+        line-height: 508px;
+    }
+    .newsletter {
+        border-radius: 0px 160px;
+        background-image: url("../img/foto_newsletter_scura.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 550px;
+    }
+    .riquadro-newsletter {
+        margin-left: 3rem;
+        border-radius: 0 80px;
+    }
+    .newsletter .titolo {
+        margin-top: 4rem !important;
+        padding-top: 4rem;
+    }
+    .newsletter .testo-newsletter {
+        font-size: 1rem;
+        line-height: 30px;
+        width: 100%;
+        margin-top: 1.5rem;
+    }
+    .email-newsletter {
+        width: 100%;
+        font-size: 1rem;
+        height: 50px;
+        border: 2px solid #000;
+        margin-top: 2rem;
+    }
+    .btn-newsletter {
+        width: 89%;
+        background-color: #63494A;
+        margin-top: 1.5rem;
+        border: 0;
+        border-radius: 0 50px;
+        color: #fff;
+        font-size: 1rem;
+        height: 50px;
+        margin-top: 2rem;
+    }
+    .btn-newsletter:hover {
+        transition: all 0.6s ease-out;
+        background-color: #000!important;
+    }
+    .padding-bottom-form {
+        padding-bottom: 4rem!important;
+    }
+    #link {
+        color: #fff;
+        display: flex;
+        list-style-type: none;
+        margin: 0 auto;
+        justify-content: space-between;
+        width: 80%;
+        padding-right: 0;
+        font-weight: bold;
+    }
+    #link li {
+        margin-right: 5px;
+    }
+    #link li:nth-of-type(5) {
+        margin-right: 0;
+    }
+    #link a {
+        font-size: 1rem;
+    }
+    .button-vini {
+        text-decoration: none;
+        cursor: pointer;
+        display: inline-block;
+        vertical-align: middle;
+        position: relative;
+        z-index: 1;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        border: 2px solid #fff;
+        font-weight: bold;
+        color: #e6bd1b;
+        padding: 0px 61px;
+        border-radius: 0 38px;
+        background-color: #fff;
+        margin-right: 3rem;
+        font-size: 0.9rem;
+        height: 41px;
+    }
+    .button-vini:hover {
+        background-color: #fff;
+    }
+    .c-button {
+        color: #e6bd1b;
+        font-weight: bold;
+        text-decoration: none;
+        cursor: pointer;
+        display: inline-block;
+        vertical-align: middle;
+        position: relative;
+        z-index: 1;
+        background-color: #000;
+        border: 2px solid #fff;
+        padding: 0px 67px;
+        border-radius: 0 38px;
+        height: 41px;
+        font-size: 0.9rem;
+    }
+      
+    .c-button--gooey {
+        letter-spacing: 2px;
+        position: relative;
+        transition: all 700ms ease;
+    }
+      
+    .c-button--gooey .c-button__blobs {
+        height: 100%;
+        filter: url(#goo);
+        overflow: hidden;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: -3px;
+        right: -1px;
+        z-index: -1;
+        border-radius: 0 40px;
+    } 
+    .c-button--gooey .c-button__blobs div {
+        background-color: #fff;
+        width: 34%;
+        height: 100%;
+        border-radius: 0 160px;
+        position: absolute;
+        transform: scale(1.4) translateY(-125%) translateZ(0);
+        transition: all 700ms ease;
+    }
+      
+    .c-button--gooey .c-button__blobs div:nth-child(1) {
+        left: -5%;
+    }
+      
+    .c-button--gooey .c-button__blobs div:nth-child(2) {
+        left: 30%;
+        transition-delay: 60ms;
+    }
+      
+    .c-button--gooey .c-button__blobs div:nth-child(3) {
+        left: 66%;
+        transition-delay: 25ms;
+    }
+    .c-button--gooey:hover {
+        color: #e6bd1b;
+        background-color: #ffffff;
+    }
+      
+    .c-button--gooey:hover .c-button__blobs div {
+        transform: scale(1.4) translateY(0) translateZ(0);
+        border-radius: 0 160px;
+    }
+    .pecorino {
+        width: 100%;
+        margin: 0 auto 1rem;
+    }
+    .margin-button-vini-bio {
+        margin-right: 3rem;
+    }
+    .bio-montepulciano {
+        width: 88%;
+        margin: 0 auto 1rem;
+    }
+    .container-btn-modal {
+        margin-top: 7px;
+        margin-bottom: auto;
+        margin-top: 1rem;
+    }
+    .btn-no-18 {
+        padding: 6px 20px;
+        margin-right: 15px;
+        box-shadow: 0px 3px 6px 0px #084182;
+        font-size: 16px;
+    }
+    .btn-18 {
+        padding: 6px 42px;
+        font-size: 16px;
+    }
+    .container-text-degustazione {
+        margin: 18rem auto;
+    }
+    .testo-degustazione {
+        line-height: 40px;
+        width: 67%;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+@media (min-width: 1095px) {
+    .vitigni .trebbiano {
+        z-index: 2;
+        position: relative;
+        width: 30%;
+        margin: 0 18rem 0 auto;
+        border-radius: 0 130px;
+        background-image: url("../img/vitigno-trebbiano.jpg");
+        height: 500px;
+        background-repeat: no-repeat;
+        background-size: 670px;
+      }
+    .vitigni .montepulciano {
+        z-index: 1;
+        position: relative;
+        width: 30%;
+        margin: -14rem auto 0 18rem;
+        border-radius: 280px 280px 0 380px;
+        background-image: url("../img/vitigno-montepulciano.jpg");
+        height: 500px;
+        background-repeat: no-repeat;
+        background-size: 670px;
+    }
+    .vitigni .titolo {
+        line-height: 508px;
+    }
+    .vitigni .titolo {
+        line-height: 508px;
+    }
+    .pecorino {
+        width: 89%;
+    }
+    .container-text-degustazione {
+        margin: 20rem auto;
+    }
+    .testo-degustazione {
+        line-height: 40px;
+        width: 57%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .degustazione-contenuto img {
+        width: 100%;
+        border-radius: 90px;
+        height: 450px;
+        margin-top: 5.5rem;
+    }
+    .degustazione-contenuto-cucina img {
+        width: 100%;
+        border-radius: 90px;
+        height: 450px;
+        margin-top: 4.5rem;
+    }
+}
+@media (min-width: 1120px) {
+    .degustazione-contenuto img {
+        width: 100%;
+        border-radius: 90px;
+        height: 470px;
+        margin-top: 4rem;
+    }
+    .degustazione-contenuto-cucina img {
+        width: 100%;
+        border-radius: 90px;
+        height: 470px;
+        margin-top: 3.9rem;
+    }
+}
+@media (min-width: 1200px) {
+    .vitigni .trebbiano {
+        z-index: 2;
+        position: relative;
+        width: 30%;
+        margin: 0 20rem 0 auto;
+        border-radius: 0 130px;
+        background-image: url("../img/vitigno-trebbiano.jpg");
+        height: 500px;
+        background-repeat: no-repeat;
+        background-size: 670px;
+      }
+    .vitigni .montepulciano {
+        z-index: 1;
+        position: relative;
+        width: 30%;
+        margin: -14rem auto 0 20rem;
+        border-radius: 280px 280px 0 380px;
+        background-image: url("../img/vitigno-montepulciano.jpg");
+        height: 500px;
+        background-repeat: no-repeat;
+        background-size: 670px;
+    }
+    .vitigni .titolo {
+        line-height: 508px;
+    }
+    .newsletter {
+        border-radius: 0px 180px;
+        background-image: url("../img/foto_newsletter_scura.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 650px;
+    }
+    .riquadro-newsletter {
+        margin-left: 3rem;
+        border-radius: 0 80px;
+    }
+    .newsletter .titolo {
+        margin-top: 7rem !important;
+        padding-top: 4rem;
+    }
+    .newsletter .testo-newsletter {
+        font-size: 1.125rem;
+        line-height: 30px;
+        width: 100%;
+        margin-top: 1.5rem;
+    }
+    .email-newsletter {
+        width: 100%;
+        font-size: 1.125rem;
+        height: 60px;
+        border: 2px solid #000;
+        margin-top: 2rem;
+    }
+    .btn-newsletter {
+        width: 89%;
+        background-color: #63494A;
+        margin-top: 1.5rem;
+        border: 0;
+        border-radius: 0 50px;
+        color: #fff;
+        font-size: 1.125rem;
+        height: 60px;
+        margin-top: 2rem;
+    }
+    .btn-newsletter:hover {
+        transition: all 0.6s ease-out;
+        background-color: #000!important;
+    }
+    .padding-bottom-form {
+        padding-bottom: 4rem!important;
+    }
+    #link {
+        color: #fff;
+        display: flex;
+        list-style-type: none;
+        margin: 0 auto;
+        justify-content: space-between;
+        width: 75%;
+        padding-right: 0;
+        font-weight: bold;
+    }
+    #link li {
+        margin-right: 5px;
+    }
+    #link li:nth-of-type(5) {
+        margin-right: 0;
+    }
+    #link a {
+        font-size: 1.125rem;
+    }
+    .button-vini {
+        text-decoration: none;
+        cursor: pointer;
+        display: inline-block;
+        vertical-align: middle;
+        position: relative;
+        z-index: 1;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        border: 2px solid #fff;
+        font-weight: bold;
+        color: #e6bd1b;
+        padding: 10px 70px;
+        border-radius: 0 40px;
+        background-color: #fff;
+        margin-right: 3rem;
+        height: 45px;
+      }
+      .button-vini:hover {
+        background-color: #fff;
+      }
+      .c-button {
+        color: #e6bd1b;
+        font-weight: bold;
+        text-decoration: none;
+        cursor: pointer;
+        display: inline-block;
+        vertical-align: middle;
+        position: relative;
+        z-index: 1;
+        background-color: #000;
+        border: 2px solid #fff;
+        padding: 15px 70px;
+        border-radius: 0 40px;
+        padding: 10px 70px;
+        border-radius: 0 40px;
+        height: 45px;
+      }
+      
+      .c-button--gooey {
+        letter-spacing: 2px;
+        position: relative;
+        transition: all 700ms ease;
+      }
+      
+      .c-button--gooey .c-button__blobs {
+        height: 100%;
+        filter: url(#goo);
+        overflow: hidden;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: -3px;
+        right: -1px;
+        z-index: -1;
+        border-radius: 0 40px;
+      } 
+      .c-button--gooey .c-button__blobs div {
+        background-color: #fff;
+        width: 34%;
+        height: 100%;
+        border-radius: 0 160px;
+        position: absolute;
+        transform: scale(1.4) translateY(-125%) translateZ(0);
+        transition: all 700ms ease;
+      }
+      
+      .c-button--gooey .c-button__blobs div:nth-child(1) {
+        left: -5%;
+      }
+      
+      .c-button--gooey .c-button__blobs div:nth-child(2) {
+        left: 30%;
+        transition-delay: 60ms;
+      }
+      
+      .c-button--gooey .c-button__blobs div:nth-child(3) {
+        left: 66%;
+        transition-delay: 25ms;
+      }
+      
+      /* Hover styles */
+      .c-button--gooey:hover {
+        color: #e6bd1b;
+        background-color: #ffffff;
+      }
+      
+      .c-button--gooey:hover .c-button__blobs div {
+        transform: scale(1.4) translateY(0) translateZ(0);
+        border-radius: 0 160px;
+      }
+      .pecorino {
+        width: 100%;
+    }
+    .conmtainer-btn-modal {
+        margin-top: 7px;
+        margin-bottom: auto;
+        margin-top: 1rem;
+    }
+    .btn-no-18 {
+        padding: 7px 18px;
+        margin-right: 30px;
+        box-shadow: 0px 3px 6px 0px #084182;
+        font-size: 18px;
+    }
+    .btn-18 {
+        padding: 7px 42px;
+        font-size: 18px;
+    }
+    .container-text-degustazione {
+        margin: 22rem auto;
+    }
+    .testo-degustazione {
+        line-height: 55px;
+        width: 62%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .degustazione-contenuto img {
+        width: 100%;
+        border-radius: 110px;
+        height: 525px;
+        margin-top: 8.5rem;
+    }
+    .degustazione-contenuto-cucina img {
+        width: 100%;
+        border-radius: 110px;
+        height: 525px;
+        margin-top: 7.3rem;
+    }
+}
+@media (min-width: 1400px) {
+    .vitigni .trebbiano {
+        z-index: 2;
+        position: relative;
+        width: 27%;
+        margin: 0 26rem 0 auto;
+        border-radius: 0 150px;
+        background-image: url("../img/vitigno-trebbiano.jpg");
+        height: 521px;
+        background-repeat: no-repeat;
+        background-size: 670px;
+      }
+    .vitigni .montepulciano {
+        z-index: 1;
+        position: relative;
+        width: 27%;
+        margin: -14rem auto 0 26rem;
+        border-radius: 300px 300px 0 400px;
+        background-image: url("../img/vitigno-montepulciano.jpg");
+        height: 521px;
+        background-repeat: no-repeat;
+        background-size: 670px;
+    }
+    .vitigni .titolo {
+        line-height: 518px;
+    }
+    .newsletter {
+        border-radius: 0px 180px;
+        background-image: url("../img/foto_newsletter_scura.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 850px;
+    }
+    .newsletter .titolo {
+        margin-top: 10rem !important;
+        padding-top: 5rem;
+    }
+    .newsletter .testo-newsletter {
+        font-size: 1.125rem;
+        line-height: 30px;
+        width: 100%;
+        margin-top: 1.5rem;
+    }
+    .email-newsletter {
+        width: 100%;
+        font-size: 1.125rem;
+        height: 60px;
+        border: 2px solid #000;
+        margin-top: 4rem;
+    }
+    .btn-newsletter {
+        width: 89%;
+        background-color: #63494A;
+        border: 0;
+        border-radius: 0 50px;
+        color: #fff;
+        font-size: 1.125rem;
+        height: 60px;
+        margin-top: 4rem;
+    }
+    .btn-newsletter:hover {
+        transition: all 0.6s ease-out;
+        background-color: #000!important;
+    }
+    .padding-bottom-form {
+        padding-bottom: 5rem!important;
+    }
+    #link {
+        color: #fff;
+        display: flex;
+        list-style-type: none;
+        margin: 0 auto;
+        justify-content: space-between;
+        width: 75%;
+        padding-right: 0;
+        font-weight: bold;
+    }
+    #link li {
+        margin-right: 5px;
+    }
+    #link li:nth-of-type(5) {
+        margin-right: 0;
+    }
+    #link a {
+        font-size: 1.125rem;
+    }
+    .pecorino {
+        width: 89%;
+    }
+    .cococciola-spumante {
+        width: 98%;
+    }
+    .moscato-dolce {
+        width: 98%;
+        margin: 0 auto 1rem;
+    }
+    .bio-montepulciano {
+        width: 88%;
+        margin: 0 auto 1rem;
+    }
+    .bio-vino-cococciola {
+        width: 94%;
+        margin: 0 auto 1rem;
+    }
+    .bio-moscato {
+        width: 98%;
+        margin: 0 auto 1rem;
+    }
+    .container-text-degustazione {
+        margin: 24rem auto;
+    }
+    .testo-degustazione {
+        line-height: 55px;
+        width: 58%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .degustazione-contenuto img {
+        width: 100%;
+        border-radius: 110px;
+        height: 540px;
+        margin-top: 5.3rem;
+    }
+    .degustazione-contenuto-cucina img {
+        width: 100%;
+        border-radius: 110px;
+        height: 540px;
+        margin-top: 5.5rem;
+    }
+    .mappa {
+        width: 100%;
+        height: 600px;
+        border-radius: 30px;
+    }
+}
+@media (min-width: 1600px) {
+    .vitigni .trebbiano {
+        z-index: 2;
+        position: relative;
+        width: 27%;
+        margin: 0 30rem 0 auto;
+        border-radius: 0 150px;
+        background-image: url("../img/vitigno-trebbiano.jpg");
+        height: 640px;
+        background-repeat: no-repeat;
+        background-size: 670px;
+    }
+    .vitigni .montepulciano {
+        z-index: 1;
+        position: relative;
+        width: 27%;
+        margin: -14rem auto 0 30rem;
+        border-radius: 300px 300px 0 400px;
+        background-image: url("../img/vitigno-montepulciano.jpg");
+        height: 640px;
+        background-repeat: no-repeat;
+        background-size: 670px;
+    }
+    .vitigni .titolo {
+        line-height: 626px;
+    }
+    .cantina img {
+        border-radius: 180px 0;
+        height: 100%;
+    }
+    .cantina {
+        height: 900px;
+    }
+    .newsletter {
+        border-radius: 0px 180px;
+        background-image: url("../img/foto_newsletter_scura.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 900px;
+    }
+    .container-text-degustazione {
+        margin: 26rem auto;
+    }
+}
+@media (min-width: 1800px) {
+    .vitigni .trebbiano {
+        z-index: 2;
+        position: relative;
+        width: 27%;
+        margin: 0 33rem 0 auto;
+        border-radius: 0 150px;
+        background-image: url("../img/vitigno-trebbiano.jpg");
+        height: 700px;
+        background-repeat: no-repeat;
+        background-size: 700px;
+    }
+    .vitigni .montepulciano {
+        z-index: 1;
+        position: relative;
+        width: 27%;
+        margin: -14rem auto 0 33rem;
+        border-radius: 300px 300px 0 400px;
+        background-image: url("../img/vitigno-montepulciano.jpg");
+        height: 700px;
+        background-repeat: no-repeat;
+        background-size: 700px;
+    }
+    .vitigni .titolo {
+        line-height: 626px;
+    }
+    .container-text-degustazione {
+        margin: 28rem auto;
+    }
+}
